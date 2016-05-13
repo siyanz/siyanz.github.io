@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+.center_video{
+	margin: 0 auto 3vw auto;
+	display: block;
+	clear: both;
+}
+
+#dashboard{
+	width:250px;
+	float: right;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	}
+	
+/*Formatting for left in-text image previews */
+
+.textimgleft {
+	width: 200px;
+	margin-bottom: 12pt;
+	margin-top: 12pt;
+	margin-right: 3px;
+}
+/*Formatting for right in-text image previews */
+.textimgright {
+	height: 300px;
+	float: right;
+	margin: 12pt 3pt 12pt 15pt;
+}
+/*Formatting for extra long in-text image previews */
+.longtextimg {
+	width: 100%;
+	float: left;
+	margin-bottom: 12pt;
+	margin-top: 12pt;
+	margin-right: 3px;
+}
+/* Formatting for hero images in portfolio posts */
+#hero {
+	height:auto;
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+/* Formatting for mid-aligned images in portfolio posts */
+.mid_img {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	vertical-align: bottom;	
+}
+
+/*Formatting 3 column layout*/
+.left-column{
+	float: left;
+	width: 50%;
+}
+
+.right-column{
+	float: right;
+	width: 50%;
+}
