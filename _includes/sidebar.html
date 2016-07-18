@@ -1,0 +1,18 @@
+<!-- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<a href="{{ site.baseurl }}/">
+		<img src="{{ site.avatar }}" class="img-circle" />
+	</a>
+	<h3 class="title">
+        <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+    </h3>
+</header>
+
+{% if page.description %}
+<div id="bio" class="text-center">
+	{{ site.description }}
+</div>
+{% endif %}
+
+
+<!-- sidebar.html end -->

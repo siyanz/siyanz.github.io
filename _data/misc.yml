@@ -1,0 +1,8 @@
+- name: Meo-awr
+  file: "tiger.png"
+  description: A random illustration of a ... cat... tiger?
+
+- name: Furnitures
+  file: "furniture logo.png"
+  description: Rebound shot from Mike | Creative Mints
+  ext: https://dribbble.com/shots/1016618-Icons

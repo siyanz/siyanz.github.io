@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="siyanz.com/feed.xml" rel="self" type="application/atom+xml" /><link href="siyanz.com/" rel="alternate" type="text/html" /><updated>2016-07-17T15:03:54-04:00</updated><id>siyanz.com/</id><title>Siyan Zhao</title><subtitle>Project database of Siyan Zhao</subtitle><entry><title>Intermanual Apparent Tactile Motion</title><link href="siyanz.com/research/hci/2015/06/01/Intermanual-Apparent-Motion.html" rel="alternate" type="text/html" title="Intermanual Apparent Tactile Motion" /><published>2015-06-01T00:00:00-04:00</published><updated>2015-06-01T00:00:00-04:00</updated><id>siyanz.com/research/hci/2015/06/01/Intermanual-Apparent-Motion</id><content type="html" xml:base="siyanz.com/research/hci/2015/06/01/Intermanual-Apparent-Motion.html">&lt;p&gt;&lt;img src=&quot;/images/ATM/img1.png&quot; alt=&quot;Our personal devices alert us with simple vibrations, such as shaking and pulsating. As effective as these vibrations are at getting people&#39;s attention, they can only give the users so much information.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ATM/img2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ATM/img3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ATM/img4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ATM/img5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ATM/img6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;video&quot;&gt;
+	&lt;iframe src=&quot;https://player.vimeo.com/video/175137902?byline=0&amp;amp;portrait=0&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><summary></summary></entry><entry><title>Feel Effect: Enriching Storytelling with Haptic Feedback</title><link href="siyanz.com/research/hci/2014/06/01/Feel-Effects.html" rel="alternate" type="text/html" title="Feel Effect&amp;#58; Enriching Storytelling with Haptic Feedback" /><published>2014-06-01T00:00:00-04:00</published><updated>2014-06-01T00:00:00-04:00</updated><id>siyanz.com/research/hci/2014/06/01/Feel-Effects</id><content type="html" xml:base="siyanz.com/research/hci/2014/06/01/Feel-Effects.html">&lt;h3 id=&quot;project-description&quot;&gt;Project Description&lt;/h3&gt;
+&lt;p&gt;The word haptics refers to the sense of touch. In technology, haptics are commonly used in phones that vibrate to alert users or in game controllers to enhance entertaining experience. Unlike artists who use sound or vision, haptic designers cannot simply access libraries of meaningful effects that can be used directly in media content. Furthermore, they lack even guiding principles for creating such effects.&lt;/p&gt;
+
+&lt;p&gt;In our research, we built a library of haptic sensations, called feel effects. They are meaningful haptic signals that deliver semantic meanings. These feel effects are grouped using semantics into 6 families, Rain, Pulse, Brush, Strike, Travel, and Motor Sounds. With this haptic library in hand, haptic designers could easily pick and add haptic sensations to their own content.&lt;/p&gt;
+
+&lt;h3 id=&quot;user-studies&quot;&gt;User Studies&lt;/h3&gt;
+&lt;p&gt;The first study asked participants to generate feel effects for words given to them, such as heavy rain, poke, knock and etc. They completed this task by sliding 2-3 sliders, each controlling a parameter that defined the feel effects.&lt;/p&gt;
+
+&lt;p&gt;From the first study, we calculated the parameter values that the majority of the participants chose for each word. To test that these parameter values are good representations for the words given to them, we ran the second user study, where the participants would rate on a 5-point scale whether or not a feel effect is a good representation of its corresponding phrase. We also matched feel effects with other phrases to check if there was a one-to-one correspondence between a feel effect and its paring word.&lt;/p&gt;
+
+&lt;p&gt;In our second study, we also paired synonyms of words from the first study with their corresponding feel effects. This can effectively broaden the haptic vocabularies. Results from the second user study showed that people can associate the feel effects from study one with their underlying semantic meanings. In other words, people can “comprehend” the feel effects just like how they can understand words when prompted.&lt;/p&gt;
+
+&lt;p&gt;The two user studies suggested future opportunities to integrate feel effects with movies, games and so on for richer entertainment experience.&lt;/p&gt;
+
+&lt;div id=&quot;slideshow&quot;&gt;
+	&lt;div id=&quot;myCarousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot; data-interval=&quot;false&quot;&gt;
+		&lt;!-- Wrapper for slides --&gt;
+		&lt;div class=&quot;carousel-inner&quot; role=&quot;listbox&quot;&gt;
+		
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				
+				&lt;div class=&quot;item  active &quot;&gt;
+					&lt;img src=&quot;/images/FE/slides/hardware_3.png&quot; alt=&quot;/images/FE/slides/hardware_3.png&quot; /&gt;
+				&lt;/div&gt;
+			
+		
+			
+				
+				&lt;div class=&quot;item &quot;&gt;
+					&lt;img src=&quot;/images/FE/slides/padBox.png&quot; alt=&quot;/images/FE/slides/padBox.png&quot; /&gt;
+				&lt;/div&gt;
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+		&lt;/div&gt;
+
+		&lt;!-- Indicators --&gt;
+		&lt;ol class=&quot;carousel-indicators&quot;&gt;
+		
+			&lt;li data-target=&quot;#myCarousel&quot; class=&quot;active&quot; data-slide-to=&quot;0&quot;&gt;&lt;/li&gt;
+		
+			&lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
+		
+		&lt;/ol&gt;
+
+		&lt;!-- Left and right controls --&gt;
+		&lt;a class=&quot;left carousel-control&quot; href=&quot;#myCarousel&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;
+			&lt;span class=&quot;glyphicon glyphicon-chevron-left&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+			&lt;span class=&quot;sr-only&quot;&gt;Previous&lt;/span&gt;
+		&lt;/a&gt;
+		&lt;a class=&quot;right carousel-control&quot; href=&quot;#myCarousel&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt;
+			&lt;span class=&quot;glyphicon glyphicon-chevron-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+			&lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</content><summary>Project Description
+The word haptics refers to the sense of touch. In technology, haptics are commonly used in phones that vibrate to alert users or in game controllers to enhance entertaining experience. Unlike artists who use sound or vision, haptic designers cannot simply access libraries of meaningful effects that can be used directly in media content. Furthermore, they lack even guiding principles for creating such effects.</summary></entry><entry><title>Beacon: Decision Aid for COPD Patients</title><link href="siyanz.com/ux/research/2014/01/21/Beacon-for-COPD-Patients.html" rel="alternate" type="text/html" title="Beacon&amp;#58; Decision Aid for COPD Patients" /><published>2014-01-21T00:00:00-05:00</published><updated>2014-01-21T00:00:00-05:00</updated><id>siyanz.com/ux/research/2014/01/21/Beacon-for-COPD-Patients</id><content type="html" xml:base="siyanz.com/ux/research/2014/01/21/Beacon-for-COPD-Patients.html">&lt;h3 id=&quot;project-introduction&quot;&gt;Project Introduction&lt;/h3&gt;
+&lt;p&gt;This was my Senior project, a final-semester project that allows HCI students to work closely with a real client and apply the UX and research skills we have learned to help the client with their requests.&lt;/p&gt;
+
+&lt;p&gt;Our team had the honor to work with Dr. Cynthis Gries from University of Pittsburgh Medical Center (UPMC) to design a decision aid for patients with Chronic Obstructive Pulmonary Disease (COPD), commonly known as emphysema. COPD affects patient’s lungs, making the lungs unable to retain oxygen. Patients with COPD have severe issues with breathing. Many patients describe their difficulties with breathing as if they are “breathing through a coffee straw”. This significantly decreased their quality of life.&lt;/p&gt;
+
+&lt;p&gt;Although there is no cure for COPD, there are two approaches to treat it: medical treatment (oxygen, bronchodilators, steroids, pulmonary rehabilitation) and lung transplant. The purpose of our decision aid is to help patients choose a treatment that benefits them the most given what they value the most and their individual situations.&lt;/p&gt;
+
+&lt;h3 id=&quot;hunt-statement&quot;&gt;Hunt Statement&lt;/h3&gt;
+&lt;p&gt;Creating a tool to educate patients about the risks and benefits of the treatment options for severe Chronic Obstructive Pulmonary Disease (COPD) and help them connect their values and individual circumstances with their treatment choice.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-role&quot;&gt;My Role&lt;/h3&gt;
+&lt;p&gt;As the research lead of the team, I, together with my team, interviewed many stakeholders, people who were involved in patients’ decision-making process, in the early stage. We also talked to patients pre- and post-transplant to understand their worries and concerns. In the design phase, I participated in low-, medium-, and high-fidelity prototyping and contributed greatly to each design iteration. I also took part in the report writing and documentation.&lt;/p&gt;
+
+&lt;h3 id=&quot;design-timeline&quot;&gt;Design Timeline&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/images/Beacon/timeline.png&quot; alt=&quot;Project timeline&quot; title=&quot;Project timeline&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;background-research&quot;&gt;Background Research&lt;/h4&gt;
+&lt;p&gt;To better help the patients, we started off by reading existing literatures on COPD, its treatment and reviewing decision aids for other diseases. This was followed by multiple visits to the UPMC to observe COPD information sessions and consulting sessions for patients. Last but not least, we interviewed with stakeholders who were involved in patients’ decision making process. Those stakeholders were, but not limited to, caregivers, surgeons and pulmonologists. From the stakeholders, we wanted to get a full picture of what people need and want to know the most in order to make a decision on treatment.&lt;/p&gt;
+
+&lt;h4 id=&quot;affinity-diagram&quot;&gt;Affinity Diagram&lt;/h4&gt;
+&lt;p&gt;We gathered large amount of information from observations and interviews. An affinity diagram with all the findings pointed out 3 critical misconceptions that we need to address in the decision aid. We found that: patients “think that risks and complications won’t happen to them”,”trust doctors but also listen to other patients”, and “consider a lung transplant as their only treatment option”.&lt;/p&gt;
+
+&lt;p&gt;These three insights were the main focus of our decision aid.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Beacon/affinity.png&quot; alt=&quot;Affinity diagram with 700 post-its&quot; title=&quot;This was a 700-post-its affinity diagram. It covered up a whole wall!&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;low-fidelity-prototype&quot;&gt;Low-Fidelity Prototype&lt;/h4&gt;
+&lt;p&gt;In this prototype, we aimed to test the overall layout and content structure. We focused on exploring navigation structures and ways to present information about the treatment options.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Beacon/navigation.png&quot; alt=&quot;Sidebar vs Guided Navigation&quot; title=&quot;The guided navigation was tested to be more appropraite for the user group.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We tested two navigation structures, guided and sidebar navigation. The guided navigation provided patients with all the information in a linear style. Patients would only use “Next” and “Previous” buttons to go through the decision aid. The benefit was its ease of use and that patients would not miss any important information by skipping through sections.&lt;/p&gt;
+
+&lt;p&gt;The sidebar navigation, on the other hand, offered more flexibility to go from section to section. It also signaled the users which section of the decision aid they were at by referring to the menu on the left.&lt;/p&gt;
+
+&lt;p&gt;In terms of content presentation, we tried multiple ways of providing information to the patients. Other than using texts, we integrated videos. There were also quiz questions that stressed major takeaway points that the patients should know about for each treatment option (medical treatment vs. lung transplant).&lt;/p&gt;
+
+&lt;p&gt;We also used a scale metaphor that was commonly used in decision aids to visually present pros and cons of two options. Prior to the scale metaphor page, patients had to answer questions about what they valued the most in their lives and what they wanted to get out from the treatment. Depending on what values each treatment could satisfy, we put the values that the patients chose on two sides of the scale, each side representing one treatment option. By visually seeing which side the scale tilts against, patients would have a clearer idea of which treatment would be better for them.&lt;/p&gt;
+
+&lt;h4 id=&quot;medium-fidelity-prototype&quot;&gt;Medium-Fidelity Prototype&lt;/h4&gt;
+&lt;p&gt;We built an interactive medium-fidelity prototype using a prototyping tool called Proto.io. During the medium-fidelity phrase, we focused on refining three key elements of the tool: the navigational structure, the interactive elements (i.e., quiz questions, videos, and the scale metaphor), and the content design.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Beacon/med-fi.png&quot; alt=&quot;Interactive Medium-Fidelity Prototype&quot; title=&quot;The medium-fidelity prototype&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;high-fidelity-prototype&quot;&gt;High-Fidelity Prototype&lt;/h4&gt;
+&lt;p&gt;Our high fidelity prototype was a static website, created with the expectation that some of the code might be used in the final product. In high-fidelity prototyping phase, we significantly improved the usability of our navigation, the organization of our content, and the videos in the decision aid.&lt;/p&gt;
+
+&lt;p&gt;For navigation, we added an option for patients to use arrow keys on their keyboards to navigate between pages. This resulted from our previous finding that patients had difficulties using a computer mouse and clicking on buttons.&lt;/p&gt;
+
+&lt;p&gt;We reorganized the content into three sections, general introduction of emphysema and the decision aid, medical treatment, and lung transplant. Each section is color-coded to avoid confusion.&lt;/p&gt;
+
+&lt;p&gt;We also found videos of real patients talking about their experience with each treatment. Due to time constraint, we made our own videos. Those videos served as placeholders and guidelines for our client so that they knew what videos to record for the final version of the decision aid.&lt;/p&gt;
+
+&lt;h3 id=&quot;final-delivery&quot;&gt;Final Delivery&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://juliat.github.io/copdda/#intro&quot;&gt;Click here&lt;/a&gt; to see our final prototype in action.&lt;/p&gt;
+
+&lt;p&gt;Our client was very satisfied with the final work and decided to continue on working on the decision aid based on our design and eventually launching it in the near future.&lt;/p&gt;</content><summary>Project Introduction
+This was my Senior project, a final-semester project that allows HCI students to work closely with a real client and apply the UX and research skills we have learned to help the client with their requests.</summary></entry><entry><title>Firefly: A Smart Ticket Enhancing Concert Experience</title><link href="siyanz.com/ux/ideation/2014/01/10/Firefly.html" rel="alternate" type="text/html" title="Firefly&amp;#58; A Smart Ticket Enhancing Concert Experience" /><published>2014-01-10T00:00:00-05:00</published><updated>2014-01-10T00:00:00-05:00</updated><id>siyanz.com/ux/ideation/2014/01/10/Firefly</id><content type="html" xml:base="siyanz.com/ux/ideation/2014/01/10/Firefly.html">&lt;h3 id=&quot;project-requirements&quot;&gt;Project Requirements&lt;/h3&gt;
+&lt;p&gt;The project guideline required us to design a Ubicomp service-system that supports the needs and desires of a target set of users. The settings we could explore were “a stadium, auditorium, gymnasium, or coliseum that supports large-scale group interaction pertaining to either sports or music”.&lt;/p&gt;
+
+&lt;h3 id=&quot;design-process&quot;&gt;Design Process&lt;/h3&gt;
+
+&lt;h4 id=&quot;guerrilla-observation&quot;&gt;Guerrilla Observation&lt;/h4&gt;
+&lt;p&gt;Our team went on guerrilla observations in a few concerts. We visited a Beatles Tribute concert held in a large-scale venue (Heinz Hall in Pittsburgh) and a few smaller-scaled concerts happened in medium-sized bars and auditoriums. We found that people’s behavior changed as the size of the venues varied. In small venues, people were more comfortable socializing with people physically close to them. And the social interactions, in turn, made the performance more enjoyable to the audiences. For performances held in large-scale venues (that normally could room hundreds of thousands of people), we observed that people did not fully enjoy themselves due to the large size of the crowd and felt uncomfortable to participate in the concert or interact with the performers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Firefly/firefly_guerilla.png&quot; alt=&quot;Photos from the concerts of a large and a small venue&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;speed-dating&quot;&gt;Speed Dating&lt;/h4&gt;
+&lt;p&gt;After speed-dating a few ideas, we wanted to build a smart ticket that could offer feedback and encouragement to the audience whenever they participate in a concert, e.g., clapping along to the beats or shouting band members’ names. To increase the value in the ticket after the concert, we added an invisible message on the back of the ticket that is unique to the event and only shows up after some time after the event. We envisioned the message to be a pleasant surprise that can remind people of the fun time they have during the concert.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/Firefly/firefly_speeddate.png&quot;&gt;&lt;img src=&quot;/images/Firefly/firefly_speeddate_preview.png&quot; alt=&quot;Our speed dating ideas&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;final-delivery&quot;&gt;Final Delivery&lt;/h3&gt;
+&lt;p&gt;Our final delivery was a &lt;a href=&quot;https://player.vimeo.com/video/107059521&quot;&gt;concept video&lt;/a&gt;.&lt;/p&gt;</content><summary>Project Requirements
+The project guideline required us to design a Ubicomp service-system that supports the needs and desires of a target set of users. The settings we could explore were “a stadium, auditorium, gymnasium, or coliseum that supports large-scale group interaction pertaining to either sports or music”.</summary></entry><entry><title>Chance: A Dating App for Bikers</title><link href="siyanz.com/app/ideation/2014/01/09/Chance.html" rel="alternate" type="text/html" title="Chance&amp;#58; A Dating App for Bikers" /><published>2014-01-09T00:00:00-05:00</published><updated>2014-01-09T00:00:00-05:00</updated><id>siyanz.com/app/ideation/2014/01/09/Chance</id><content type="html" xml:base="siyanz.com/app/ideation/2014/01/09/Chance.html">&lt;h3 id=&quot;design-process&quot;&gt;Design Process&lt;/h3&gt;
+
+&lt;h4 id=&quot;what-is-chance&quot;&gt;What is Chance?&lt;/h4&gt;
+&lt;p&gt;Chance is a conceptual app that tracks your biking commute and matches you with other bike commuters in your area.&lt;/p&gt;
+
+&lt;h4 id=&quot;why-chance&quot;&gt;Why Chance?&lt;/h4&gt;
+&lt;p&gt;Our background research on bikers showed that bikers feel an immediate connection to other bikers. This valuable piece of information brought us inspiration of building a mobile application that brings bikers together. As they share the commonality, they may find it appealing to date bikers who share similar values and lifestyles.&lt;/p&gt;
+
+&lt;h4 id=&quot;who-use-chance&quot;&gt;Who use Chance?&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/Chance/chance_persona.jpg&quot; alt=&quot;The persona of Chance: a daily cyclist who is interested in meeting people and be safe during biking commute&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;final-delivery&quot;&gt;Final Delivery&lt;/h3&gt;
+
+&lt;h4 id=&quot;scenario-1-adriana-browses-through-profiles-and-sends-a-message&quot;&gt;Scenario 1: Adriana browses through profiles and sends a message&lt;/h4&gt;
+&lt;div class=&quot;video&quot;&gt;
+	&lt;iframe src=&quot;https://player.vimeo.com/video/169391856?byline=0&amp;amp;portrait=0&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;scenario-2-adriana-receives-and-checks-messages&quot;&gt;Scenario 2: Adriana receives and checks messages&lt;/h4&gt;
+&lt;div class=&quot;video&quot;&gt;
+	&lt;iframe src=&quot;https://player.vimeo.com/video/169392389?byline=0&amp;amp;portrait=0&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;design-specs&quot;&gt;Design Specs&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/images/Chance/design spec.png&quot; alt=&quot;Design specs of the app interface&quot; /&gt;&lt;/p&gt;</content><summary>Design Process</summary></entry><entry><title>The Red Thread – A Visual Book</title><link href="siyanz.com/print/illustration/2012/10/01/Red-Thread.html" rel="alternate" type="text/html" title="The Red Thread – A Visual Book" /><published>2012-10-01T00:00:00-04:00</published><updated>2012-10-01T00:00:00-04:00</updated><id>siyanz.com/print/illustration/2012/10/01/Red-Thread</id><content type="html" xml:base="siyanz.com/print/illustration/2012/10/01/Red-Thread.html">&lt;div id=&quot;slideshow&quot;&gt;
+	&lt;div id=&quot;myCarousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot; data-interval=&quot;false&quot;&gt;
+		&lt;!-- Wrapper for slides --&gt;
+		&lt;div class=&quot;carousel-inner&quot; role=&quot;listbox&quot;&gt;
+		
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				
+				&lt;div class=&quot;item  active &quot;&gt;
+					&lt;img src=&quot;/images/RedThread/slides/DSC_0100.png&quot; alt=&quot;/images/RedThread/slides/DSC_0100.png&quot; /&gt;
+				&lt;/div&gt;
+			
+		
+			
+				
+				&lt;div class=&quot;item &quot;&gt;
+					&lt;img src=&quot;/images/RedThread/slides/DSC_0107.png&quot; alt=&quot;/images/RedThread/slides/DSC_0107.png&quot; /&gt;
+				&lt;/div&gt;
+			
+		
+			
+				
+				&lt;div class=&quot;item &quot;&gt;
+					&lt;img src=&quot;/images/RedThread/slides/dsc_0008.png&quot; alt=&quot;/images/RedThread/slides/dsc_0008.png&quot; /&gt;
+				&lt;/div&gt;
+			
+		
+			
+				
+				&lt;div class=&quot;item &quot;&gt;
+					&lt;img src=&quot;/images/RedThread/slides/dsc_0053.png&quot; alt=&quot;/images/RedThread/slides/dsc_0053.png&quot; /&gt;
+				&lt;/div&gt;
+			
+		
+			
+				
+				&lt;div class=&quot;item &quot;&gt;
+					&lt;img src=&quot;/images/RedThread/slides/dsc_0056.png&quot; alt=&quot;/images/RedThread/slides/dsc_0056.png&quot; /&gt;
+				&lt;/div&gt;
+			
+		
+			
+				
+				&lt;div class=&quot;item &quot;&gt;
+					&lt;img src=&quot;/images/RedThread/slides/dsc_0072.png&quot; alt=&quot;/images/RedThread/slides/dsc_0072.png&quot; /&gt;
+				&lt;/div&gt;
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+		&lt;/div&gt;
+
+		&lt;!-- Indicators --&gt;
+		&lt;ol class=&quot;carousel-indicators&quot;&gt;
+		
+			&lt;li data-target=&quot;#myCarousel&quot; class=&quot;active&quot; data-slide-to=&quot;0&quot;&gt;&lt;/li&gt;
+		
+			&lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
+		
+			&lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
+		
+			&lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;3&quot;&gt;&lt;/li&gt;
+		
+			&lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;4&quot;&gt;&lt;/li&gt;
+		
+			&lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;5&quot;&gt;&lt;/li&gt;
+		
+		&lt;/ol&gt;
+
+		&lt;!-- Left and right controls --&gt;
+		&lt;a class=&quot;left carousel-control&quot; href=&quot;#myCarousel&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;
+			&lt;span class=&quot;glyphicon glyphicon-chevron-left&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+			&lt;span class=&quot;sr-only&quot;&gt;Previous&lt;/span&gt;
+		&lt;/a&gt;
+		&lt;a class=&quot;right carousel-control&quot; href=&quot;#myCarousel&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt;
+			&lt;span class=&quot;glyphicon glyphicon-chevron-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+			&lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;project-requirements&quot;&gt;Project Requirements&lt;/h3&gt;
+&lt;p&gt;The assignment was to make a visual book on anything original – short story, expository, children’s poetry, fiction or nonfiction. I decided to write a short story about the Red Thread, a myth in both Chinese and Japanese culture. According to the myth, on everyone’s pinky (or ankles according to the Chinese version), there wraps a red thread that connects you to your soul mate, the person you should end up with. The final print is an accordion book of 16 pages. Each page is 5.5 inches * 5.5 inches.&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-learned&quot;&gt;Lesson Learned&lt;/h3&gt;
+&lt;p&gt;White space can sometimes make a book more attractive. This is one of the most important lessons that I learned while doing the assignment. There are a lot of blank space in my book. Since the red color flows throughout the entire book, readers would naturally follow along with it while reading through the book. The blank spaces also let the readers better focus on the red thread, which is the MAIN theme of the book.&lt;/p&gt;
+
+&lt;p&gt;This book also offered me a chance to practice typography. By using different fonts for the names of the chapers, they better communicate their meanings to the readers.&lt;/p&gt;
+
+&lt;h3 id=&quot;full-book&quot;&gt;Full Book&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/RedThread/finalprint.jpg&quot;&gt;&lt;img src=&quot;/images/RedThread/finalprint.jpg&quot; alt=&quot;Scanned version of the entire book&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary>Previous
+		
+		
+			
+			Next</summary></entry><entry><title>Monogram</title><link href="siyanz.com/print/illustration/2012/09/01/Monogram.html" rel="alternate" type="text/html" title="Monogram" /><published>2012-09-01T00:00:00-04:00</published><updated>2012-09-01T00:00:00-04:00</updated><id>siyanz.com/print/illustration/2012/09/01/Monogram</id><content type="html" xml:base="siyanz.com/print/illustration/2012/09/01/Monogram.html">&lt;h3 id=&quot;project-requirements&quot;&gt;Project Requirements&lt;/h3&gt;
+&lt;p&gt;This project is all about letter forms. By designing initials through different typefaces and various compositions, we can get a sense of how typefaces differ and how the difference can help us express ourselves in addition to composition&lt;/p&gt;
+
+&lt;h3 id=&quot;project-process&quot;&gt;Project Process&lt;/h3&gt;
+&lt;p&gt;Sketching is an important hands-on way to understand the differences between typefaces. I felt how typefaces vary in terms of stroke thickness and curve.&lt;/p&gt;
+
+&lt;h4 id=&quot;baskerville&quot;&gt;Baskerville&lt;/h4&gt;
+&lt;p&gt;The original sketch was in Gill Sans because I wanted to show the symmetry of the two letters “S” and “Z”. And the two letters show the best symmetry in Gill Sans. I also tried out the similar design in Minion. Since I didn’t fill the stroke in the sketch, the overlap between the two letters showed the letter “S” goes behind the letter “Z”. After exploring this idea in Illustrator, I chose the font Baskerville. While showing symmetry, the letter “Z” is square enough that it seems that “Z” is embracing the letter “S”, giving a sense of comfort.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Monogram/Baskerville.png&quot; alt=&quot;Sketches in Baskerville and its final print&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;garamond&quot;&gt;Garamond&lt;/h4&gt;
+&lt;p&gt;The original idea was to express overlapping and layers. Yet, in Illustrator, I got too creative with copy and paste. The reflected letters “Z” and “S” were based on the idea that the two letters were mirror images of each other. The small set of letters are letters flipped 180 degrees and the interesting thing about the letters “Z” and “S” is that you still see the letters as “Z” and “S” upside down. The small “Y” is also flipped 180 degrees and merges perfectly into the large upright letter “Y”. But the main reason why I love this composition is that the small set of letters is exactly the same as the large set but smaller and upside-down.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Monogram/Garamond_final.png&quot; alt=&quot;Sketches in Garamond and it&#39;s final print&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;rockwell&quot;&gt;Rockwell&lt;/h4&gt;
+&lt;p&gt;This composition is the only one that inherited all features from the original sketch. The reason why I chose the font Rockwell is because the start and end of the letters look like little hooks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Monogram/Rockwell.png&quot; alt=&quot;Sketches in Rockwell and it&#39;s final print&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;all-sketches&quot;&gt;All Sketches&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;/images/Monogram/sketch_1.jpg&quot;&gt;&lt;img src=&quot;/images/Monogram/sketch_1.jpg&quot; alt=&quot;Sketch 1&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/Monogram/sketch_2.jpg&quot;&gt;&lt;img src=&quot;/images/Monogram/sketch_2.jpg&quot; alt=&quot;Sketch 2&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary>Project Requirements
+This project is all about letter forms. By designing initials through different typefaces and various compositions, we can get a sense of how typefaces differ and how the difference can help us express ourselves in addition to composition</summary></entry><entry><title>Other Things</title><link href="siyanz.com/2011/01/01/Misc.html" rel="alternate" type="text/html" title="Other Things" /><published>2011-01-01T00:00:00-05:00</published><updated>2011-01-01T00:00:00-05:00</updated><id>siyanz.com/2011/01/01/Misc</id><content type="html" xml:base="siyanz.com/2011/01/01/Misc.html"></content><summary></summary></entry></feed>

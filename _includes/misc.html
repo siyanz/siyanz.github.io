@@ -1,0 +1,14 @@
+<article class="row">
+	<div class="col-sm-12">
+		{% for work in site.data.misc %}
+			<div class="col-sm-6 misc">
+				<img src = "{{ site.baseurl }}/images/Misc/{{ work.file }}">
+				<div>
+					<hr class="divider">
+					<h4> {{ work.name }} </h4>
+					<p> {{ work.description }} {% if work.ext %} <a href = "{{ work.ext }}" target="_blank">>></a> {% endif %}</p>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</article>
