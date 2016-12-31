@@ -8,7 +8,7 @@ resources:
  - resource: Paper
    external-url: http://disneyresearch.s3-us-west-1.amazonaws.com/wp-content/uploads/20150719204348/Intermanual-Apparent-Tactile-Motion-on-Handheld-Tablets-Paper.pdf
  - resource: Poster
-   external-url: ../images/ATM/poster.png
+   external-url: /images/ATM/poster.png
 color: "#B165A3"
 preview: /images/ATM/teaser.png
 hero: false

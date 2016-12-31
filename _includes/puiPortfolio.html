@@ -1,0 +1,14 @@
+<article class="row">
+	<div class="col-sm-12">
+		{% for site in site.data.puiPortfolio %}
+			<div class="thumbnail col-sm-4">
+				<div class="wrapper">
+					<img src = "{{ site.baseurl }}/images/PUITA/{{ work.file }}">
+				</div>
+				<div class="captions">
+					{% if work.personalWebsite %}<a href = "{{ work.personalWebsite }}" target="_blank">{% endif %}<h4> {{ work.author }} </h4> {% if work.personalWebsite %}</a>
+					<p> {{ work.description }} </p>
+			</div>
+		{% endfor %}
+	</div>
+</article>
