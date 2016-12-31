@@ -13,11 +13,6 @@
   description: interview.me&#58; A website for live UX interview practice
   workLink: /images/PUITA/work/axlin/DesignQ homepage.html
 
-- author: Chaoya Li
-  file: "chaoyal.png"
-  description: Personal portfolio
-  workLink: /images/PUITA/work/chaoyal/home.html
-
 - author: Caroline Win
   file: "cwin.png"
   description: What is UX design?
@@ -27,3 +22,8 @@
   file: "esaltz.png"
   description: Get into the mode&#58; Modal text editing simulation
   workLink: /images/PUITA/work/esaltz/index.html
+
+- author: Rho Eun Song
+  file: "rhoeuns.png"
+  description: Interactive portfolio
+  workLink: /images/PUITA/work/rhoeuns/index.html
