@@ -1,0 +1,49 @@
+
+/* Many other CSS changes were made to the boostrap css files directly  */
+
+td {
+   	color: white;
+   	width: 25%;
+}
+
+.colorfill{
+    height: 350px;
+}
+
+th {
+	height: 40px;
+   	color: white;
+
+}
+
+#col-centered{
+	float: none;
+	margin: 0 auto;
+}
+
+#addTaskForm{
+	background-color: #000;
+	display: none;
+}
+
+html{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+h1,h2,h3{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+}
+
+table{
+	text-align:center;
+}
+
+.btn-primary{
+	background-color:#e8e8e8;
+	border-color:gray;
+	color:black;
+}

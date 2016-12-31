@@ -419,6 +419,28 @@ footer {
   text-align: center;
 }
 
+#puiPortfolio {
+  padding-top: 20px;
+}
+#puiPortfolio h4 {
+  padding-top: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+#puiPortfolio p {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: normal;
+}
+#puiPortfolio a {
+  text-decoration: none;
+}
+#puiPortfolio .thumbnail {
+  border: none;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 /* nav-vertical-tabs component */
 .nav-tabs-vertical {
   border-right: 1px solid #ddd;

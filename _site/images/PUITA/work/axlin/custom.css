@@ -1,0 +1,171 @@
+body {
+	background-color: white;
+	padding-top: 70px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+p {
+	font-family: helvetica;
+}
+
+
+/* FONTS */
+h1 {
+	font-size: 50pt;
+	font-family: "avenir";
+	text-align: center;
+	color: black;
+	line-height: 0.6em;
+}
+
+h2 {
+	font-size: 16pt;
+	font-family: helvetica;
+	text-align: center;
+	color: black;
+}
+
+h3 {
+	font-size: 14pt;
+	font-family: helvetica;
+	text-align: center;
+	color: black;
+}
+
+h4 {
+	font-size: 14pt;
+	font-family: helvetica;
+	text-align: left;
+	color: black;
+}
+
+u {
+	border-bottom: 3px #FF8C00 solid;
+	text-decoration: none;
+}
+
+h6 {
+	font-size: 14pt;
+	font-family: helvetica;
+	text-align: center;
+	color: gray;
+}
+
+/* NAVBAR STUFF */
+.navbar {
+	background-color: none;
+	border: 0;
+	margin: 30px;
+}
+
+.glyphicon-question-sign {
+    font-size: 150%;
+    display: inline-block;
+    cursor: pointer; 
+	cursor: hand; 
+}
+
+.glyphicon-time {
+    font-size: 150%;
+    display: inline-block;
+    float: left;
+    cursor: pointer; 
+	cursor: hand; 
+}
+
+.underline {
+	border-bottom: 3px #FF8C00 solid;
+}
+
+div#counter {
+	display: inline-block;
+	font-size: 120%;
+	font-family: helvetica;
+}
+
+.container-fluid {
+	vertical-align: bottom;
+}
+
+.btn[type="submit"] {
+	background-color: #FF8C00;
+	color: white;
+	font-size: 10pt;
+	font-family: helvetica;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	border-radius: 30pt;
+	border: 0pt;
+    padding: 15px 20px;
+    text-align: middle;
+    margin-top: 50px;
+    cursor: pointer; 
+	cursor: hand; 
+}
+
+/* style for name entry */
+.form-control[type="text"] {
+	background: transparent;
+	border: none;
+	border-bottom: 3px solid black;
+	box-shadow: none;
+	text-align: center;
+	font-size: 16pt;
+}
+
+#name-entry {
+	padding-top: 5%;
+}
+
+.container.box {
+	padding-top: 5%;
+	width: 500px;
+}
+
+.question {
+	color: black;
+	font-size: 18pt;
+	font-family: helvetica;
+	text-align: center;
+	padding: 10%;
+}
+
+#instruction-page, #end-page {
+	color: black;
+	font-size: 18pt;
+	font-family: helvetica;
+	text-align: center;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-top: 5%;
+}
+
+/* MODAL */
+#modal {
+	text-align: left;
+}
+
+.modal-header {
+	border: 0;
+	padding-bottom: 0;
+}
+
+.modal-body {
+	padding-bottom: 40px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+a:link, a:visited {
+	color: #FF8C00;
+	cursor: pointer; 
+	cursor: hand; 
+}
+
+a:hover {
+	text-decoration: none;
+	border-bottom: 3px white solid;
+	cursor: pointer; 
+	cursor: hand; 
+}
