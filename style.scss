@@ -443,6 +443,31 @@ footer {
   text-align: center;
 }
 
+
+// puiPortfolio
+#puiPortfolio {
+  padding-top: 20px;
+  h4 {
+    padding-top: 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: normal;
+  }
+  a {
+    text-decoration: none;
+  }
+  .thumbnail{
+    border: none;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+
 /* nav-vertical-tabs component */
 .nav-tabs-vertical {
     border-right: 1px solid #ddd;

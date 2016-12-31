@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<!-- start of webpage -->
+<head>
+	<title>interview.me</title>
+	<meta name="viewport" content="width-device-width, initial-scale = 1">
+
+    <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" script src="javascript.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- style -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+
+<!-- START OF PAGE CONTENT -->
+<body>
+	<!-- navigation bar -->
+	<nav class="navbar navbar-fixed-top">
+  		<div class="container-fluid">
+  			<!-- timer with checkbox -->
+			<span class="glyphicon glyphicon-time underline" aria-hidden="true" align="left"></span>
+  			<div id="counter" align="center"></div>
+   			<!-- question mark modal in nav bar -->
+   			<span class="glyphicon glyphicon-question-sign pull-right" aria-hidden="true" data-toggle="modal" data-target="#modal"></span>
+  		</div>
+	</nav>
+	<!-- main screen -->
+	<center>
+
+		<!-- intro page -->
+		<div id="logo-screen">
+			<div class="container box">
+				<h1>interview.me</h1>
+				<h6>user experience interview practice</h6>
+			</div>
+			<div class="input-group" id="name-entry">
+				<h3>What's your name?</h3>
+					<span>
+	  					<input type="text" class="form-control" aria-describedby="basic-addon1">
+	  				</span>
+  				<button type="submit" class="btn btn-default" id="start-button">Let's start</button>
+			</div>
+		</div>
+
+		<!-- instruction page -->
+		<div id="instruction-page">
+			<div class="container box">
+				<h3 id="hello-name"></h3>
+				<br>
+					<h6>I am going to ask you a series of UX-related interview questions. This will take approximately 30 minutes.</h6>
+				<div>
+					<button type="submit" class="btn btn-default" id="pre-questions-button">Ok, I'm ready!</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- questions -->
+		<div id="question-page">
+			<div class="container box">
+				<div class="question">What is the most interesting project you have worked on?</div>
+				<div class="question">How do you form positive relationships with developers and/or stakeholders?</div>
+				<div class="question">How do you deal with difficult team members?</div>
+				<div class="question">How do you define user experience design?</div>
+				<div class="question">Can you take me through how you used the design process in a project?</div>
+				<div class="question"> Tell me about an assignment that was too difficult. How did you handle the situation?</div>
+				<div class="question">How will you communicate your design decisions to developers, stakeholders, and project managers?</div>
+				<div class="question">How do you prioritize which product features to keep or discard?</div>
+				<div class="question">What are some apps or websites that you love?</div>
+				<div class="question">Why do you want to work at [company x]?</div>
+				<div class="question">How would you balance the requirements between the user goals and business goals?</div>
+				<div class="question">Can you walk me through one of your projects?</div>
+				<div class="question">Tell me about a project that you’ve worked on that didn’t go as well as you’d hoped.</div>
+				<div class="question">Can you describe a time when the requirements changed in the middle of a project, and how you handled that?</div>
+				<div class="question">Have you given feedback on someone else’s designs before? What about receiving feedback?</div>
+				<div class="question">How did you become a UX designer? How did you get into design?</div>
+				<div class="question">What role do you think user research plays in companies / businesses?</div>
+				<div class="question">What tools have you used to build prototypes? Do you have a favorite?</div>
+
+				<div>
+					<button type="submit" class="btn btn-default" id="next-button">Next question, please</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- end page -->
+		<div id="end-page">
+			<div class="container box">
+					That's all the questions we have for you. Do you have any questions for us?
+				<div>
+					<button type="submit" class="btn btn-default" id="again-button">Practice again</button>
+				</div>
+			</div>
+		</div>
+	</center>
+
+	<!-- MODAL -->
+	<div id="modal" class="modal fade" role="dialog">
+  		<div class="modal-dialog">
+	    	<!-- content-->
+	    	<div class="modal-content">
+	     		<div class="modal-header">
+	        		<button type="button" class="close" data-dismiss="modal">&times;</button>
+	        	</div>
+	      		<!-- modal body -->
+	      		<div class="modal-body">
+	        		<h4><u>how to use this site</u></h4>
+	        			<p>
+	        				<ol>
+	        					<li>Find a mirror to practice in front of.</li>
+	        					<li>Put laptop between yourself and the mirror so that you can read the questions on the screen but still see yourself in the mirror.</li>
+	        					<li>Practice!</li>
+	        				</ol>
+	        			<b>Note:</b> Each "interview session" will ask you 10 random questions.
+	        			</p>
+	        	<br>
+	        		<h4><u>tips</u></h4>
+	        			<p>
+	        				<ul>
+	        					<li>Try to keep your answers under one minute and 30 seconds (use the timer!) for general questions. For questions involving specific design projects you did, the responses can be longer.</li>
+	        					<li>Use the STAR method when answering behavioral questions. <a href="http://www.uxbeginner.com/the-4-types-of-ux-interview-questions-to-master/">This site</a> provides a good overview of the type of questions and how to answer them.</li>
+	        					<li>Note your body language and eye contact during your practice session.</li>
+	        				</ul>
+	        			</p>
+	        	<br>	
+	        		<h4><u>about</u></h4>
+	        			<p>This website was created as part of the Programming Usable Interfaces course (Fall 2016) as a final project. I conceived the idea for a behavioral interview website when I was undergoing co-op interviews back in undergrad and found a lack of resources for "live" practice. Specifically, I wanted an application that was designed to be used in conjunction with a mirror to mimic live practice without the need of finding an actual partner to conduct a mock interview. This would be beneficial for people who cannot find mock interview partners or for those who are first starting out and are uncomfortable with practicing in front of another person. I took my idea and adapted it to have design specific questions for this project. I hope you find this useful.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- Adena</p>
+	      		</div>
+	    	</div>
+  		</div>
+	</div>
+</body>
+</html>

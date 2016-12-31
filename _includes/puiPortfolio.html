@@ -1,13 +1,19 @@
-<article class="row">
+<article class="row" id="puiPortfolio">
 	<div class="col-sm-12">
-		{% for site in site.data.puiPortfolio %}
-			<div class="thumbnail col-sm-4">
-				<div class="wrapper">
-					<img src = "{{ site.baseurl }}/images/PUITA/{{ work.file }}">
-				</div>
-				<div class="captions">
-					{% if work.personalWebsite %}<a href = "{{ work.personalWebsite }}" target="_blank">{% endif %}<h4> {{ work.author }} </h4> {% if work.personalWebsite %}</a> {% endif %}
-					<p> {{ work.description }} </p>
+		{% for work in site.data.puiPortfolio %}
+			<div class="thumbnail col-sm-3">
+				<a href = "{{ work.workLink }}" target="_blank">
+					<div class="wrapper">
+						<img src = "{{ site.baseurl }}/images/PUITA/{{ work.file }}">
+					</div>
+					<hr class="divider">
+					<div class="captions">
+						{% if work.personalWebsite %}<a href = "{{ work.personalWebsite }}" target="_blank">{% endif %}<h4> {{ work.author }} </h4> {% if work.personalWebsite %}</a> {% endif %}
+						<p> {{ work.description }} </p>
+					</div>
+				</a>
+			</div>
+			<div class="thumbnail col-sm-1">
 			</div>
 		{% endfor %}
 	</div>

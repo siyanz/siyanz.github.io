@@ -1,8 +1,29 @@
-- author: Meo-awr
-  file: "tiger.png"
-  description: A random illustration of a ... cat... tiger?
+- author: Akshay Goradia
+  file: "agoradia.png"
+  description: A color picker tool
+  workLink: /images/PUITA/work/agoradia/colors.html
 
-- name: Furnitures
-  file: "furniture logo.png"
-  description: Rebound shot from Mike | Creative Mints
-  ext: https://dribbble.com/shots/1016618-Icons
+- author: Arnita Saini
+  file: "asaini.png"
+  description: An interactive data visualization for UX designers
+  workLink: /images/PUITA/work/asaini/UXDesignTool.html
+
+- author: Adena Lin
+  file: "axlin.png"
+  description: interview.me&#58; A website for live UX interview practice
+  workLink: /images/PUITA/work/axlin/DesignQ homepage.html
+
+- author: Chaoya Li
+  file: "chaoyal.png"
+  description: Personal portfolio
+  workLink: /images/PUITA/work/chaoyal/home.html
+
+- author: Caroline Win
+  file: "cwin.png"
+  description: What is UX design?
+  workLink: /images/PUITA/work/cwin/index.html
+
+- author: Emily Saltz
+  file: "esaltz.png"
+  description: Get into the mode&#58; Modal text editing simulation
+  workLink: /images/PUITA/work/esaltz/index.html
