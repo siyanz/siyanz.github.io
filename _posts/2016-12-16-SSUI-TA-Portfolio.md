@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Teaching Assistant&#58; Student&#8217;s Portfolio Showcase
-shortinfo: In Fall 2016, I was the teaching assitant for Programming User Interface, a course that covers the how-tos of prototyping and designing interfaces. As the TA, I taught the lab section of the course where students learned the basics of prototyping with HTML/CSS/javascript. This page showcased the learning results. 
+shortinfo: In Fall 2016, I was the teaching assistant for Programming User Interface, a course that covers the how-tos of prototyping and designing interfaces. As the TA, I taught the lab section of the course where students learned the basics of prototyping with HTML/CSS/javascript. This page showcased the learning results. 
 categories: [Teaching, HCI]
 year: 2016
 hero: false
