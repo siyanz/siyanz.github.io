@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RhoEun's Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="next" href="skills.html" />
+        <script src="js/myscript.js"></script>
+        
+        <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>  
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>  
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script> 
+
+    </head>    
+    <body onload="setLocation()" onkeydown="moveSelection(event)">
+        <header>
+            <nav>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <img src="images/pro_pic.png">
+                    <div class="wrapper">
+                        <h1>RhoEun Song</h1>
+                        <p>Resume updated on 2016</p>
+                        <br>
+                        <a href="images/rhoeun_resume.pdf" target="_blank">click to view pdf</a>
+                        <br>
+                        <a href="images/rhoeun_resume.pdf" download>Click to download</a>
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="#" onclick="openNav()">Resume</a></li>
+                    <li>|</li>
+                    <li><a href="index.html" class="current">Home</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div id="images">
+            <p class="head_msg" style="display: none">I love to...</p>
+            <img class="img1" src="images/icons_for_index/sleepy.png" style="display: none">
+            <img class="img2" src="images/icons_for_index/open-book.png" style="display: none">
+            <img class="img3" src="images/icons_for_index/tv-screen.png" style="display: none">
+            <img class="img4" src="images/icons_for_index/video-camera.png" style="display: none">
+            <img class="img5" src="images/icons_for_index/music-player.png" style="display: none">
+        </div>
+        <div id="contents">
+            <div class="quotes">
+                <p>"Hi, I'm <span>RhoEun Song</span>, a web developer and a ux designer. Currently I am a junior studying Information Systems with minor in Human-Computer Interaction at Carnegie Mellon University at Pittsburgh. "</p>
+            </div>
+            
+            <div class="terminal_box" style="
+    height: 200px;">
+                <p>1 &nbsp;[rhoeun]~ Initialization (100%)</p>
+                <p>2 &nbsp;[rhoeun]~ Press left and right key to move RhoEun</p>
+            </div>
+        </div>
+        
+         <div id ="girl_description" class="girl_description" style="display: block">
+            <p class="blinking-description">Hi, I'm <strong>RhoEun</strong>!<br>Press left and right to move</p>
+            <img class="arrow" src="images/arrow2.png">
+        </div>
+        
+        <div id="axis" class="one">
+            <img id="girl" class="object girl move-right" src="images/Asset%201.png" style="left: 90px; top:400px"/>
+        </div>
+        
+        <div class="arrows">
+            <img class="page_left" src="images/arrows_left_handdrawn.png" style="display:none">
+            <img class="page_right" src="images/arrows_right_handdrawn.png">
+        </div>
+        
+        <img class="desktop_index" src="images/desktop_index.png">
+        
+         <div class="when_width_changed">
+            <p>Hi, I think you width is too small.
+            <br>Please make the screen full page to continue.</p>
+        </div>
+        
+       
+        <footer>
+            <p>&copy;2016 All Rights Reserved<br>Webmaster: RhoEun Song</p>
+        </footer>
+    </body>
+</html>
