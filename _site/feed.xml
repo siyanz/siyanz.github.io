@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-30T21:43:50-05:00</updated><id>http://localhost:4000//</id><title type="html">Siyan Zhao</title><subtitle>Project database of Siyan Zhao</subtitle><entry><title type="html">Teaching Assistant: Student’s Portfolio Showcase</title><link href="http://localhost:4000/teaching/hci/2016/12/16/SSUI-TA-Portfolio.html" rel="alternate" type="text/html" title="Teaching Assistant&amp;#58; Student&amp;#8217;s Portfolio Showcase" /><published>2016-12-16T00:00:00-05:00</published><updated>2016-12-16T00:00:00-05:00</updated><id>http://localhost:4000/teaching/hci/2016/12/16/SSUI-TA-Portfolio</id><content type="html" xml:base="http://localhost:4000/teaching/hci/2016/12/16/SSUI-TA-Portfolio.html">&lt;p&gt;In Fall 2016, I TA-ed a course called Programming User Interface and had the honor to work with a group of brilliant undergraduate and master students major or minor in HCI. As the teaching assistant for the course, I was responsible for a weekly lab session where students learned the fundamentals of interface prototyping, as well as the basics of HTML/CSS/javascript. For the final project, students were required to choose a project that reflects and showcases their particular interests within HCI user experience design.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="siyanz.com/feed.xml" rel="self" type="application/atom+xml" /><link href="siyanz.com/" rel="alternate" type="text/html" /><updated>2017-10-01T14:42:31-04:00</updated><id>siyanz.com/</id><title>Siyan Zhao</title><subtitle>Project database of Siyan Zhao</subtitle><entry><title>Teaching Assistant: Student’s Portfolio Showcase</title><link href="siyanz.com/teaching/hci/2016/12/16/SSUI-TA-Portfolio.html" rel="alternate" type="text/html" title="Teaching Assistant&amp;#58; Student&amp;#8217;s Portfolio Showcase" /><published>2016-12-16T00:00:00-05:00</published><updated>2016-12-16T00:00:00-05:00</updated><id>siyanz.com/teaching/hci/2016/12/16/SSUI-TA-Portfolio</id><content type="html" xml:base="siyanz.com/teaching/hci/2016/12/16/SSUI-TA-Portfolio.html">&lt;p&gt;In Fall 2016, I TA-ed a course called Programming User Interface and had the honor to work with a group of brilliant undergraduate and master students major or minor in HCI. As the teaching assistant for the course, I was responsible for a weekly lab session where students learned the fundamentals of interface prototyping, as well as the basics of HTML/CSS/javascript. For the final project, students were required to choose a project that reflects and showcases their particular interests within HCI user experience design.&lt;/p&gt;
 
 &lt;p&gt;The brilliant students pleasantly surprised me with well thought-out projects. Many of them had no or little knowledge in prototyping and web programming. So this page is dedicated to them to showcase how much they have learned during the semester through their work.&lt;/p&gt;
 
@@ -96,7 +96,7 @@
 			&lt;/div&gt;
 		
 	&lt;/div&gt;
-&lt;/article&gt;</content><summary type="html">In Fall 2016, I TA-ed a course called Programming User Interface and had the honor to work with a group of brilliant undergraduate and master students major or minor in HCI. As the teaching assistant for the course, I was responsible for a weekly lab session where students learned the fundamentals of interface prototyping, as well as the basics of HTML/CSS/javascript. For the final project, students were required to choose a project that reflects and showcases their particular interests within HCI user experience design.</summary></entry><entry><title type="html">Intermanual Apparent Tactile Motion</title><link href="http://localhost:4000/research/hci/2015/06/01/Intermanual-Apparent-Motion.html" rel="alternate" type="text/html" title="Intermanual Apparent Tactile Motion" /><published>2015-06-01T00:00:00-04:00</published><updated>2015-06-01T00:00:00-04:00</updated><id>http://localhost:4000/research/hci/2015/06/01/Intermanual-Apparent-Motion</id><content type="html" xml:base="http://localhost:4000/research/hci/2015/06/01/Intermanual-Apparent-Motion.html">&lt;p&gt;&lt;img src=&quot;/images/ATM/img1.png&quot; alt=&quot;Our personal devices alert us with simple vibrations, such as shaking and pulsating. As effective as these vibrations are at getting people's attention, they can only give the users so much information.&quot; /&gt;&lt;/p&gt;
+&lt;/article&gt;</content><summary>In Fall 2016, I TA-ed a course called Programming User Interface and had the honor to work with a group of brilliant undergraduate and master students major or minor in HCI. As the teaching assistant for the course, I was responsible for a weekly lab session where students learned the fundamentals of interface prototyping, as well as the basics of HTML/CSS/javascript. For the final project, students were required to choose a project that reflects and showcases their particular interests within HCI user experience design.</summary></entry><entry><title>Intermanual Apparent Tactile Motion</title><link href="siyanz.com/research/hci/2015/06/01/Intermanual-Apparent-Motion.html" rel="alternate" type="text/html" title="Intermanual Apparent Tactile Motion" /><published>2015-06-01T00:00:00-04:00</published><updated>2015-06-01T00:00:00-04:00</updated><id>siyanz.com/research/hci/2015/06/01/Intermanual-Apparent-Motion</id><content type="html" xml:base="siyanz.com/research/hci/2015/06/01/Intermanual-Apparent-Motion.html">&lt;p&gt;&lt;img src=&quot;/images/ATM/img1.png&quot; alt=&quot;Our personal devices alert us with simple vibrations, such as shaking and pulsating. As effective as these vibrations are at getting people's attention, they can only give the users so much information.&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/ATM/img2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -110,7 +110,7 @@
 
 &lt;div class=&quot;video&quot;&gt;
 	&lt;iframe src=&quot;https://player.vimeo.com/video/175137902?byline=0&amp;amp;portrait=0&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</content><summary type="html"></summary></entry><entry><title type="html">Feel Effect: Enriching Storytelling with Haptic Feedback</title><link href="http://localhost:4000/research/hci/2014/06/01/Feel-Effects.html" rel="alternate" type="text/html" title="Feel Effect&amp;#58; Enriching Storytelling with Haptic Feedback" /><published>2014-06-01T00:00:00-04:00</published><updated>2014-06-01T00:00:00-04:00</updated><id>http://localhost:4000/research/hci/2014/06/01/Feel-Effects</id><content type="html" xml:base="http://localhost:4000/research/hci/2014/06/01/Feel-Effects.html">&lt;h3 id=&quot;project-description&quot;&gt;Project Description&lt;/h3&gt;
+&lt;/div&gt;</content><summary></summary></entry><entry><title>Feel Effect: Enriching Storytelling with Haptic Feedback</title><link href="siyanz.com/research/hci/2014/06/01/Feel-Effects.html" rel="alternate" type="text/html" title="Feel Effect&amp;#58; Enriching Storytelling with Haptic Feedback" /><published>2014-06-01T00:00:00-04:00</published><updated>2014-06-01T00:00:00-04:00</updated><id>siyanz.com/research/hci/2014/06/01/Feel-Effects</id><content type="html" xml:base="siyanz.com/research/hci/2014/06/01/Feel-Effects.html">&lt;h3 id=&quot;project-description&quot;&gt;Project Description&lt;/h3&gt;
 &lt;p&gt;The word haptics refers to the sense of touch. In technology, haptics are commonly used in phones that vibrate to alert users or in game controllers to enhance entertaining experience. Unlike artists who use sound or vision, haptic designers cannot simply access libraries of meaningful effects that can be used directly in media content. Furthermore, they lack even guiding principles for creating such effects.&lt;/p&gt;
 
 &lt;p&gt;In our research, we built a library of haptic sensations, called feel effects. They are meaningful haptic signals that deliver semantic meanings. These feel effects are grouped using semantics into 6 families, Rain, Pulse, Brush, Strike, Travel, and Motor Sounds. With this haptic library in hand, haptic designers could easily pick and add haptic sensations to their own content.&lt;/p&gt;
@@ -127,6 +127,7 @@
 &lt;div id=&quot;slideshow&quot;&gt;
 	&lt;div id=&quot;myCarousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot; data-interval=&quot;false&quot;&gt;
 		&lt;!-- Wrapper for slides --&gt;
+		
 		&lt;div class=&quot;carousel-inner&quot; role=&quot;listbox&quot;&gt;
 		
 		
@@ -612,6 +613,142 @@
 		
 			
 		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
 		&lt;/div&gt;
 
 		&lt;!-- Indicators --&gt;
@@ -633,8 +770,8 @@
 			&lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
-&lt;/div&gt;</content><summary type="html">Project Description
-The word haptics refers to the sense of touch. In technology, haptics are commonly used in phones that vibrate to alert users or in game controllers to enhance entertaining experience. Unlike artists who use sound or vision, haptic designers cannot simply access libraries of meaningful effects that can be used directly in media content. Furthermore, they lack even guiding principles for creating such effects.</summary></entry><entry><title type="html">Beacon: Decision Aid for COPD Patients</title><link href="http://localhost:4000/ux/research/2014/01/21/Beacon-for-COPD-Patients.html" rel="alternate" type="text/html" title="Beacon&amp;#58; Decision Aid for COPD Patients" /><published>2014-01-21T00:00:00-05:00</published><updated>2014-01-21T00:00:00-05:00</updated><id>http://localhost:4000/ux/research/2014/01/21/Beacon-for-COPD-Patients</id><content type="html" xml:base="http://localhost:4000/ux/research/2014/01/21/Beacon-for-COPD-Patients.html">&lt;h3 id=&quot;project-introduction&quot;&gt;Project Introduction&lt;/h3&gt;
+&lt;/div&gt;</content><summary>Project Description
+The word haptics refers to the sense of touch. In technology, haptics are commonly used in phones that vibrate to alert users or in game controllers to enhance entertaining experience. Unlike artists who use sound or vision, haptic designers cannot simply access libraries of meaningful effects that can be used directly in media content. Furthermore, they lack even guiding principles for creating such effects.</summary></entry><entry><title>Beacon: Decision Aid for COPD Patients</title><link href="siyanz.com/ux/research/2014/01/21/Beacon-for-COPD-Patients.html" rel="alternate" type="text/html" title="Beacon&amp;#58; Decision Aid for COPD Patients" /><published>2014-01-21T00:00:00-05:00</published><updated>2014-01-21T00:00:00-05:00</updated><id>siyanz.com/ux/research/2014/01/21/Beacon-for-COPD-Patients</id><content type="html" xml:base="siyanz.com/ux/research/2014/01/21/Beacon-for-COPD-Patients.html">&lt;h3 id=&quot;project-introduction&quot;&gt;Project Introduction&lt;/h3&gt;
 &lt;p&gt;This was my Senior project, a final-semester project that allows HCI students to work closely with a real client and apply the UX and research skills we have learned to help the client with their requests.&lt;/p&gt;
 
 &lt;p&gt;Our team had the honor to work with Dr. Cynthis Gries from University of Pittsburgh Medical Center (UPMC) to design a decision aid for patients with Chronic Obstructive Pulmonary Disease (COPD), commonly known as emphysema. COPD affects patient’s lungs, making the lungs unable to retain oxygen. Patients with COPD have severe issues with breathing. Many patients describe their difficulties with breathing as if they are “breathing through a coffee straw”. This significantly decreased their quality of life.&lt;/p&gt;
@@ -690,8 +827,8 @@ The word haptics refers to the sense of touch. In technology, haptics are common
 &lt;h3 id=&quot;final-delivery&quot;&gt;Final Delivery&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;http://juliat.github.io/copdda/#intro&quot;&gt;Click here&lt;/a&gt; to see our final prototype in action.&lt;/p&gt;
 
-&lt;p&gt;Our client was very satisfied with the final work and decided to continue on working on the decision aid based on our design and eventually launching it in the near future.&lt;/p&gt;</content><summary type="html">Project Introduction
-This was my Senior project, a final-semester project that allows HCI students to work closely with a real client and apply the UX and research skills we have learned to help the client with their requests.</summary></entry><entry><title type="html">Firefly: A Smart Ticket Enhancing Concert Experience</title><link href="http://localhost:4000/ux/ideation/2014/01/10/Firefly.html" rel="alternate" type="text/html" title="Firefly&amp;#58; A Smart Ticket Enhancing Concert Experience" /><published>2014-01-10T00:00:00-05:00</published><updated>2014-01-10T00:00:00-05:00</updated><id>http://localhost:4000/ux/ideation/2014/01/10/Firefly</id><content type="html" xml:base="http://localhost:4000/ux/ideation/2014/01/10/Firefly.html">&lt;h3 id=&quot;project-requirements&quot;&gt;Project Requirements&lt;/h3&gt;
+&lt;p&gt;Our client was very satisfied with the final work and decided to continue on working on the decision aid based on our design and eventually launching it in the near future.&lt;/p&gt;</content><summary>Project Introduction
+This was my Senior project, a final-semester project that allows HCI students to work closely with a real client and apply the UX and research skills we have learned to help the client with their requests.</summary></entry><entry><title>Firefly: A Smart Ticket Enhancing Concert Experience</title><link href="siyanz.com/ux/ideation/2014/01/10/Firefly.html" rel="alternate" type="text/html" title="Firefly&amp;#58; A Smart Ticket Enhancing Concert Experience" /><published>2014-01-10T00:00:00-05:00</published><updated>2014-01-10T00:00:00-05:00</updated><id>siyanz.com/ux/ideation/2014/01/10/Firefly</id><content type="html" xml:base="siyanz.com/ux/ideation/2014/01/10/Firefly.html">&lt;h3 id=&quot;project-requirements&quot;&gt;Project Requirements&lt;/h3&gt;
 &lt;p&gt;The project guideline required us to design a Ubicomp service-system that supports the needs and desires of a target set of users. The settings we could explore were “a stadium, auditorium, gymnasium, or coliseum that supports large-scale group interaction pertaining to either sports or music”.&lt;/p&gt;
 
 &lt;h3 id=&quot;design-process&quot;&gt;Design Process&lt;/h3&gt;
@@ -707,8 +844,8 @@ This was my Senior project, a final-semester project that allows HCI students to
 &lt;p&gt;&lt;a href=&quot;/images/Firefly/firefly_speeddate.png&quot;&gt;&lt;img src=&quot;/images/Firefly/firefly_speeddate_preview.png&quot; alt=&quot;Our speed dating ideas&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;final-delivery&quot;&gt;Final Delivery&lt;/h3&gt;
-&lt;p&gt;Our final delivery was a &lt;a href=&quot;https://player.vimeo.com/video/107059521&quot;&gt;concept video&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">Project Requirements
-The project guideline required us to design a Ubicomp service-system that supports the needs and desires of a target set of users. The settings we could explore were “a stadium, auditorium, gymnasium, or coliseum that supports large-scale group interaction pertaining to either sports or music”.</summary></entry><entry><title type="html">Chance: A Dating App for Bikers</title><link href="http://localhost:4000/app/ideation/2014/01/09/Chance.html" rel="alternate" type="text/html" title="Chance&amp;#58; A Dating App for Bikers" /><published>2014-01-09T00:00:00-05:00</published><updated>2014-01-09T00:00:00-05:00</updated><id>http://localhost:4000/app/ideation/2014/01/09/Chance</id><content type="html" xml:base="http://localhost:4000/app/ideation/2014/01/09/Chance.html">&lt;h3 id=&quot;design-process&quot;&gt;Design Process&lt;/h3&gt;
+&lt;p&gt;Our final delivery was a &lt;a href=&quot;https://player.vimeo.com/video/107059521&quot;&gt;concept video&lt;/a&gt;.&lt;/p&gt;</content><summary>Project Requirements
+The project guideline required us to design a Ubicomp service-system that supports the needs and desires of a target set of users. The settings we could explore were “a stadium, auditorium, gymnasium, or coliseum that supports large-scale group interaction pertaining to either sports or music”.</summary></entry><entry><title>Chance: A Dating App for Bikers</title><link href="siyanz.com/app/ideation/2014/01/09/Chance.html" rel="alternate" type="text/html" title="Chance&amp;#58; A Dating App for Bikers" /><published>2014-01-09T00:00:00-05:00</published><updated>2014-01-09T00:00:00-05:00</updated><id>siyanz.com/app/ideation/2014/01/09/Chance</id><content type="html" xml:base="siyanz.com/app/ideation/2014/01/09/Chance.html">&lt;h3 id=&quot;design-process&quot;&gt;Design Process&lt;/h3&gt;
 
 &lt;h4 id=&quot;what-is-chance&quot;&gt;What is Chance?&lt;/h4&gt;
 &lt;p&gt;Chance is a conceptual app that tracks your biking commute and matches you with other bike commuters in your area.&lt;/p&gt;
@@ -732,11 +869,148 @@ The project guideline required us to design a Ubicomp service-system that suppor
 &lt;/div&gt;
 
 &lt;h3 id=&quot;design-specs&quot;&gt;Design Specs&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/images/Chance/design spec.png&quot; alt=&quot;Design specs of the app interface&quot; /&gt;&lt;/p&gt;</content><summary type="html">Design Process</summary></entry><entry><title type="html">The Red Thread – A Visual Book</title><link href="http://localhost:4000/print/illustration/2012/10/01/Red-Thread.html" rel="alternate" type="text/html" title="The Red Thread – A Visual Book" /><published>2012-10-01T00:00:00-04:00</published><updated>2012-10-01T00:00:00-04:00</updated><id>http://localhost:4000/print/illustration/2012/10/01/Red-Thread</id><content type="html" xml:base="http://localhost:4000/print/illustration/2012/10/01/Red-Thread.html">&lt;div id=&quot;slideshow&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/images/Chance/design spec.png&quot; alt=&quot;Design specs of the app interface&quot; /&gt;&lt;/p&gt;</content><summary>Design Process</summary></entry><entry><title>The Red Thread – A Visual Book</title><link href="siyanz.com/print/illustration/2012/10/01/Red-Thread.html" rel="alternate" type="text/html" title="The Red Thread – A Visual Book" /><published>2012-10-01T00:00:00-04:00</published><updated>2012-10-01T00:00:00-04:00</updated><id>siyanz.com/print/illustration/2012/10/01/Red-Thread</id><content type="html" xml:base="siyanz.com/print/illustration/2012/10/01/Red-Thread.html">&lt;div id=&quot;slideshow&quot;&gt;
 	&lt;div id=&quot;myCarousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot; data-interval=&quot;false&quot;&gt;
 		&lt;!-- Wrapper for slides --&gt;
+		
 		&lt;div class=&quot;carousel-inner&quot; role=&quot;listbox&quot;&gt;
 		
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
 		
 			
 		
@@ -1281,11 +1555,11 @@ The project guideline required us to design a Ubicomp service-system that suppor
 
 &lt;h3 id=&quot;full-book&quot;&gt;Full Book&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;/images/RedThread/finalprint.jpg&quot;&gt;&lt;img src=&quot;/images/RedThread/finalprint.jpg&quot; alt=&quot;Scanned version of the entire book&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">Previous
+&lt;p&gt;&lt;a href=&quot;/images/RedThread/finalprint.jpg&quot;&gt;&lt;img src=&quot;/images/RedThread/finalprint.jpg&quot; alt=&quot;Scanned version of the entire book&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary>Previous
 		
 		
 			
-			Next</summary></entry><entry><title type="html">Monogram</title><link href="http://localhost:4000/print/illustration/2012/09/01/Monogram.html" rel="alternate" type="text/html" title="Monogram" /><published>2012-09-01T00:00:00-04:00</published><updated>2012-09-01T00:00:00-04:00</updated><id>http://localhost:4000/print/illustration/2012/09/01/Monogram</id><content type="html" xml:base="http://localhost:4000/print/illustration/2012/09/01/Monogram.html">&lt;h3 id=&quot;project-requirements&quot;&gt;Project Requirements&lt;/h3&gt;
+			Next</summary></entry><entry><title>Monogram</title><link href="siyanz.com/print/illustration/2012/09/01/Monogram.html" rel="alternate" type="text/html" title="Monogram" /><published>2012-09-01T00:00:00-04:00</published><updated>2012-09-01T00:00:00-04:00</updated><id>siyanz.com/print/illustration/2012/09/01/Monogram</id><content type="html" xml:base="siyanz.com/print/illustration/2012/09/01/Monogram.html">&lt;h3 id=&quot;project-requirements&quot;&gt;Project Requirements&lt;/h3&gt;
 &lt;p&gt;This project is all about letter forms. By designing initials through different typefaces and various compositions, we can get a sense of how typefaces differ and how the difference can help us express ourselves in addition to composition&lt;/p&gt;
 
 &lt;h3 id=&quot;project-process&quot;&gt;Project Process&lt;/h3&gt;
@@ -1309,5 +1583,5 @@ The project guideline required us to design a Ubicomp service-system that suppor
 &lt;h3 id=&quot;all-sketches&quot;&gt;All Sketches&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;/images/Monogram/sketch_1.jpg&quot;&gt;&lt;img src=&quot;/images/Monogram/sketch_1.jpg&quot; alt=&quot;Sketch 1&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/images/Monogram/sketch_2.jpg&quot;&gt;&lt;img src=&quot;/images/Monogram/sketch_2.jpg&quot; alt=&quot;Sketch 2&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">Project Requirements
-This project is all about letter forms. By designing initials through different typefaces and various compositions, we can get a sense of how typefaces differ and how the difference can help us express ourselves in addition to composition</summary></entry><entry><title type="html">Other Things</title><link href="http://localhost:4000/2011/01/01/Misc.html" rel="alternate" type="text/html" title="Other Things" /><published>2011-01-01T00:00:00-05:00</published><updated>2011-01-01T00:00:00-05:00</updated><id>http://localhost:4000/2011/01/01/Misc</id><content type="html" xml:base="http://localhost:4000/2011/01/01/Misc.html"></content><summary type="html"></summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;/images/Monogram/sketch_2.jpg&quot;&gt;&lt;img src=&quot;/images/Monogram/sketch_2.jpg&quot; alt=&quot;Sketch 2&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary>Project Requirements
+This project is all about letter forms. By designing initials through different typefaces and various compositions, we can get a sense of how typefaces differ and how the difference can help us express ourselves in addition to composition</summary></entry><entry><title>Other Things</title><link href="siyanz.com/2011/01/01/Misc.html" rel="alternate" type="text/html" title="Other Things" /><published>2011-01-01T00:00:00-05:00</published><updated>2011-01-01T00:00:00-05:00</updated><id>siyanz.com/2011/01/01/Misc</id><content type="html" xml:base="siyanz.com/2011/01/01/Misc.html"></content><summary></summary></entry></feed>

@@ -524,6 +524,33 @@ ul.dropdown-menu>li>a>i.fa {
     }
 }
 
+.readingList {
+> table {
+    width: 100%;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    border-collapse: collapse;
+    >tbody {
+      >tr {
+        // border: solid 0.5px  rgba(227, 227, 227, 0.1);
+        border-left: 0;
+        border-right: 0;
+        vertical-align: top;
+        .date {
+          white-space: nowrap;
+        }
+        .data-spacer {
+          padding-right: 0.6em;
+        }
+      }
+      >tr:first-child, >tr:last-child {
+        border: none;
+      }
+    }
+
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" class="cursor">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Get into the mode</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="styles/mystyle.css">
+
+</head>
+
+<body>
+    <div class="container-fluid container">
+        <div class="row">
+            <div class="col-xs-4 title-tab">
+                <h1>Modal text editing simulation</h1>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-xs-11 editor">
+                <div class="row">
+                    <div class="col-xs-2" id="verb">
+                        <p>ACTION MODE</p>
+                        <p id="insert">Insert</p>
+                        <p id="delete">Delete</p>
+                        <p id="move">Move</p>
+                    </div>
+                    <div class="col-xs-2" id="noun">
+                        <p>SELECTION MODE</p>
+                        <p id="empty-select">— — —</p>
+                        <p id="insert-text">Text</p>
+                        <!-- <p id="insert-paragraph">Paragraph</p> -->
+                        <p id="delete-word">Word</p>
+                        <p id="delete-char">Character</p>
+                        <p id="delete-text">Text</p>
+
+                        <br/>
+                    </div>
+
+                    <div class="col-xs-5">
+                        <div class="text-editor">
+                            <span id="command-line">Select action mode</span>
+                            <div id="input-div">
+                                <input id="command-line-input" type="text" placeholder=""></input>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-xs-12 text-editor-bottom">
+                                <span id="text-output">Your text output goes here!</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xs-1" id="ok-btn">
+                        <span>OK</span>
+                    </div>
+                </div>
+                <div class="row back">
+                    <div class="col-xs-2"></div>
+                    <div class="col-xs-2">
+                        <a class="button back-up" id="backmode">
+
+                            <span><span class="glyphicon glyphicon-arrow-left"></span> back-up</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- end editor col -->
+        </div>
+        <!-- end editor row -->
+
+        <div class="row info">
+
+            <div class="col-xs-11 info-title">
+                <h1>The anti-usability features of mode-based text editors</h1>
+            </div>
+
+
+        </div>
+        <div class="row info-header">
+
+            <div class="col-xs-3 info-head1">
+                <h1>Verbs precede their objects</h1>
+            </div>
+            <div class="col-xs-3 info-head2">
+                <h1>It’s hard to escape modes</h1>
+            </div>
+            <div class="col-xs-3 info-head3">
+                <h1>Key meanings are confused</h1>
+            </div>
+
+
+        </div>
+        <div class="row info">
+
+            <div class="col-xs-3 info-1">
+                <h1>Systems that use prefix syntax must enter a mode to wait for the user to specify the object. Keeping track of mode changes can distract a user from the task at hand.
+      </h1>
+            </div>
+            <div class="col-xs-3 info-2">
+                <h1>Users often get “stuck” in a mode. An oft-heard question is, “How do I get out of this mode?”</h1>
+            </div>
+            <div class="col-xs-3 info-3">
+                <h1>If unmodified letter keys are typed in command mode but the user thinks the system is in text mode, unintended and sometimes disastrous results ensue.
+      </h1>
+            </div>
+
+
+        </div>
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="myscript.js" async></script>
+</body>
+
+</html>

@@ -498,6 +498,27 @@ ul.dropdown-menu > li > a > i.fa {
   color: #FF8C00;
 }
 
+.readingList > table {
+  width: 100%;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  border-collapse: collapse;
+}
+.readingList > table > tbody > tr {
+  border-left: 0;
+  border-right: 0;
+  vertical-align: top;
+}
+.readingList > table > tbody > tr .date {
+  white-space: nowrap;
+}
+.readingList > table > tbody > tr .data-spacer {
+  padding-right: 0.6em;
+}
+.readingList > table > tbody > tr:first-child, .readingList > table > tbody > tr:last-child {
+  border: none;
+}
+
 .highlight {
   background-color: #efefef;
   padding: 7px 7px 7px 10px;
