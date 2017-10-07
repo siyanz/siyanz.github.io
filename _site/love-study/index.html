@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>List of read papers – Siyan Zhao – Project database of Siyan Zhao</title>
+    <title>Love Study – Siyan Zhao – Project database of Siyan Zhao</title>
 
         <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -16,8 +16,8 @@
     <meta name="author" content="Siyan Zhao" />
 
     
-    <meta property="og:title" content="List of read papers" />
-    <meta property="twitter:title" content="List of read papers" />
+    <meta property="og:title" content="Love Study" />
+    <meta property="twitter:title" content="Love Study" />
     
 
     <!--[if lt IE 9]>
@@ -82,38 +82,39 @@
       <div class="col-sm-8 content col-sm-offset-2">
         
 <div class="page-header">
-  <h1>List of read papers </h1>
+  <h1>Love Study </h1>
 </div>
 
 
-<div class="readingList">
-  <table>
-    <tbody>
-      
-      
-        <tr class="post-meta ">
-          <td class="data-spacer date"> Oct 3, 2017 </td>
-          <td> Different Partners, Different Selves:Strategic Verification of Circumscribed Identities </td>
-        </tr>
-      
-        <tr class="post-meta ">
-          <td class="data-spacer date"> Oct 2, 2017 </td>
-          <td> What the Motivated Mind Sees: Comparing Friends' Perspectives to Married Partners' Views of Each Other </td>
-        </tr>
-      
-        <tr class="post-meta ">
-          <td class="data-spacer date"> Oct 1, 2017 </td>
-          <td> To Know You Is to Love You: The Implications of Global Adoration and Specific Accuracy for Marital Relationships. </td>
-        </tr>
-      
-        <tr class="post-meta ">
-          <td class="data-spacer date"> Sep 30, 2017 </td>
-          <td> The Quest for Conviction: Motivated Cognition in Romantic Relationships </td>
-        </tr>
-      
-    </tbody>
-  </table>
-</div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '357973641322221',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v2.10'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+
+   function checkLoginState() {
+      FB.getLoginStatus(function(response) {
+        statusChangeCallback(response);
+      });
+    }
+</script>
+
+<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+</fb:login-button>
+
 
 
 
@@ -151,8 +152,8 @@
 
 		ga('create', 'UA-45590714-1', 'auto');
 		ga('send', 'pageview', {
-		  'page': '/papers-read/',
-		  'title': 'List of read papers'
+		  'page': '/love-study/',
+		  'title': 'Love Study'
 		});
 	</script>
 	<!-- End Google Analytics -->
