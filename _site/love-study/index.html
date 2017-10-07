@@ -106,10 +106,13 @@
    }(document, 'script', 'facebook-jssdk'));
 
    function checkLoginState() {
-      FB.getLoginStatus(function(response) {
-        statusChangeCallback(response);
-      });
-
+      // FB.getLoginStatus(function(response) {
+      //   statusChangeCallback(response);
+      // });
+      FB.login(function(response) {
+        // handle the response
+      }, {scope: 'email,user_likes'});
+    }
 </script>
 
 <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
