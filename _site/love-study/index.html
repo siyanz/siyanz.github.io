@@ -111,7 +111,8 @@
       // });
       FB.login(function(response) {
         // handle the response
-      }, {scope: 'email,user_likes, manage_pages',
+        console.log(response)
+      }, {scope: 'email,user_likes,manage_pages',
           auth_type: 'rerequest'});
     };
 </script>
