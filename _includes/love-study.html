@@ -24,7 +24,8 @@
       FB.login(function(response) {
         // handle the response
         console.log(response)
-      }, {scope: 'email,user_likes,manage_pages',
+      }, {scope: 'email,user_likes,manage_pages, pages_manage_cta, pages_manage_instant_articles,
+                  pages_messaging',
           auth_type: 'rerequest'});
     };
 </script>
