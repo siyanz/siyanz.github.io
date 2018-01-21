@@ -3,13 +3,14 @@ layout: post
 title: The Red Thread – A Visual Book
 year: 2012
 categories: [Print, Illustration]
-resources: 
+resources:
 shortinfo: An accordion book of an original short story about fate and love, based on a traditional Chinese myth.
 color: "#CB0C20"
 preview: /images/RedThread/teaser.png
 hero: false
 slideshow: /images/RedThread/slides
 teammates:
+ - name: sZhao
 ---
 
 {% include slideshow.html %}

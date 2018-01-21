@@ -35,15 +35,14 @@ tagline:
     		<ul class="list-unstyled">
     			{% for res in post.resources %}
     				<li><a href= "{{ res.external-url }}" target="_blank">
-              {% if res.resource == "Video" %}
+              {% if res.resource contains "Video" %}
               <i class="fa fa-film" aria-hidden="true"></i>
-              {% elsif res.resource == "Paper" %}
+              {% elsif res.resource contains "Paper" %}
               <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-              {% elsif res.resource == "Poster" %}
+              {% elsif res.resource contains "Poster" %}
               <i class="fa fa-file-image-o" aria-hidden="true"></i>
-              {% elsif res.resource == "Prototype" %}
+              {% elsif res.resource contains "Prototype" %}
               <i class="fa fa-globe" aria-hidden="true"></i>
-
               {% endif %}
               {{ res.resource }}
             </a></li>

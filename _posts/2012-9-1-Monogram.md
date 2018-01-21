@@ -3,11 +3,13 @@ layout: post
 title: Monogram
 year: 2012
 categories: [Print, Illustration]
-resources: 
+resources:
 shortinfo: Explore various letter forms through sketching.
 color: "#797979"
 preview: /images/Monogram/monogram-final.png
 teammates:
+ - name: sZhao
+
 ---
 ### Project Requirements
 This project is all about letter forms. By designing initials through different typefaces and various compositions, we can get a sense of how typefaces differ and how the difference can help us express ourselves in addition to composition

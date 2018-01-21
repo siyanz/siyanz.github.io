@@ -1,18 +1,17 @@
 ---
 layout: post
 title: Feel Effect&#58; Enriching Storytelling with Haptic Feedback
-shortinfo: Using meaningful haptic signals to deliver semantic meanings in stories for children.
+shortinfo: Designing meaningful haptic signals that deliver semantic meanings.
 year: 2014
 categories: [Research, HCI]
-resources: 
+resources:
  - resource: Paper
-   external-url: http://www.disneyresearch.com/wp-content/uploads/Project_FeelEffects_SAP2014_paper.pdf
- - resource: Poster
-   external-url: https://dl.dropboxusercontent.com/u/105925935/Siggraph_poster_v6-01.png 
+   external-url: /resources/papers/Feel_Effects.pdf
 color: "#B165A3"
 preview: /images/FE/teaser.png
 slideshow: /images/FE/slides
 teammates:
+ - name: sZhao
  - name: aIsrar
  - name: rKlatzky
 ---

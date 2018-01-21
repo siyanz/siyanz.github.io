@@ -12,6 +12,7 @@ preview: /images/Beacon/teaser.png
 hero-img: /images/Beacon/team.png
 slideshow:
 teammates:
+ - name: sZhao
  - name: juliaT
  - name: rAndrews
  - name: amrithaM
