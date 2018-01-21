@@ -38,9 +38,6 @@ body a, body a:hover, body a:focus {
   text-decoration: none;
   color: #FF8C00;
 }
-body a {
-  color: #FF8C00;
-}
 
 .container {
   margin-left: 5px;
@@ -50,6 +47,9 @@ body a {
 .content {
   padding-top: 60px;
   padding-left: 20px;
+  max-width: calc(900px);
+  margin-left: auto;
+  margin-right: auto;
 }
 @media only screen and (max-width: 768px) {
   .content {
@@ -182,7 +182,7 @@ article.entry h5,
 article.entry h6 {
   margin-top: 15px;
   margin-bottom: 0;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 article.entry h2 {
@@ -201,24 +201,17 @@ article.entry {
   margin: 0 0 100px 0;
 }
 article.entry .col-sm-4 {
-  padding-right: 0;
-  padding-left: 0;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 article.entry .col-sm-8 {
-  padding: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 article.entry .col-sm-12 {
   padding: 0;
-}
-article.entry .col-sm-12:hover h1,
-article.entry .col-sm-12:hover h2,
-article.entry .col-sm-12:hover h3,
-article.entry .col-sm-12:hover h4 {
-  color: #FF8C00;
-  text-decoration: none;
-}
-article.entry .col-sm-12:hover .blurb p {
-  color: #222;
 }
 article.entry .col-sm-5 {
   padding-right: 0;
@@ -237,7 +230,6 @@ article.entry .col-sm-5 {
 
 .index-img {
   padding: 0;
-  height: 200px;
   overflow: hidden;
 }
 .index-img img {
@@ -247,16 +239,22 @@ article.entry .col-sm-5 {
 .info {
   padding-right: 0px;
   overflow: hidden;
-  height: 200px;
 }
 .info .blurb p {
   font-family: "Droid Sans", sans-serif;
   font-size: 13px;
-  line-height: 1.9em;
+  line-height: 1.7em;
   color: #666;
+}
+.info .blurb-links li {
+  display: inline;
+  padding-right: 10px;
 }
 .info h2 {
   color: #666;
+}
+.info h2:hover, .info h2:focus {
+  color: #FF8C00;
 }
 
 .author .author-image {

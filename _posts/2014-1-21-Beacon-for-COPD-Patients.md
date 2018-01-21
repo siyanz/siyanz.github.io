@@ -4,13 +4,13 @@ title: Beacon&#58; Decision Aid for COPD Patients
 shortinfo: Creating a tool to educate patients about risks and benefits of each treatment for severe Chronic Obstructive Pulmonary Disease (COPD) and help them connect their values and individual circumstances with their treatment choice.
 year: 2014
 categories: [UX, Research]
-resources: 
- - resource: Interactive Prototype
+resources:
+ - resource: Prototype
    external-url: http://juliat.github.io/copdda/#intro
 color: "#ED8054"
 preview: /images/Beacon/teaser.png
 hero-img: /images/Beacon/team.png
-slideshow: 
+slideshow:
 teammates:
  - name: juliaT
  - name: rAndrews
@@ -39,7 +39,7 @@ To better help the patients, we started off by reading existing literatures on C
 #### Affinity Diagram
 We gathered large amount of information from observations and interviews. An affinity diagram with all the findings pointed out 3 critical misconceptions that we need to address in the decision aid. We found that: patients "think that risks and complications won't happen to them","trust doctors but also listen to other patients", and "consider a lung transplant as their only treatment option".
 
-These three insights were the main focus of our decision aid. 
+These three insights were the main focus of our decision aid.
 
 ![Affinity diagram with 700 post-its]({{ site.baseurl }}/images/Beacon/affinity.png "This was a 700-post-its affinity diagram. It covered up a whole wall!")
 
