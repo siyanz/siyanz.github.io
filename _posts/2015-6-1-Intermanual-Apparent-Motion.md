@@ -11,7 +11,7 @@ resources:
    external-url: /resources/papers/Intermanual-Apparent-Tactile-Motion.pdf
  - resource: Poster
    external-url: /images/ATM/poster.png
-color: "#B165A3"
+color: "#FF8C00"
 preview: /images/ATM/teaser.png
 hero: false
 teammates:

@@ -9,8 +9,7 @@
 		  	{% for mate in page.teammates %}
 		  	{% assign person = site.data.people[mate.name] %}
 		  	{% if person.website %}<a href="{% if person.website %}{{ person.website }}{% endif %}" target="_blank"> {% endif %}
-					{{ person.name }}
-				{% if person.website %}</a>{% endif %}{% unless forloop.last %},{% endunless %}
+					{{ person.name }}{% if person.website %}</a>{% endif %}{% unless forloop.last %},{% endunless %}
 		  	{% endfor %}
 			</p>
 			{% endif %}

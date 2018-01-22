@@ -11,7 +11,7 @@ resources:
    external-url: /images/FeelingStories/poster.pdf
  - resource: Video
    external-url: /resources/videos/IDC2015_FeelingStories.mp4
-color: "#B165A3"
+color: "#FF8C00"
 preview: /images/FeelingStories/teaser.png
 slideshow: /images/FeelingStories/slides
 teammates:

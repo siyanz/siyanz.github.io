@@ -8,7 +8,7 @@ resources:
  - resource: Paper
    external-url: resources/papers/CodingTactileSymbols.pdf
 preview: /images/CodingTactile/teaser.png
-color: "#B165A3"
+color: "#FF8C00"
 teammates:
  - name: sZhao
  - name: aIsrar
