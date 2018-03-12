@@ -148,16 +148,16 @@ a.nav-link:hover { color: #777; }
   padding-right: 20px;
   // padding-bottom: 0;
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 600;
-  font-size: 1.5em;
-  border-bottom:  solid #FF8C00 2px;
+  // font-weight: 600;
+  font-size: 1.4em;
+  border-bottom:  solid #FF8C00 1px;
 }
 
 #main-nav ul{
   list-style-type: none;
   padding: 0;
   padding-top: 5px;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 #main-nav ul {
@@ -620,6 +620,12 @@ ul.dropdown-menu>li>a>i.fa {
     font-size: 14px;
     line-height: 22px;
     font-weight: bold;
+  }
+
+  #works .item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #works a.permalink:hover h3 { color: #F2756A; }
