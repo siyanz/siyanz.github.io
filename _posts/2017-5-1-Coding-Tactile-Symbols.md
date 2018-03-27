@@ -6,7 +6,7 @@ year: 2018
 categories: [Research, HCI]
 resources:
  - resource: Paper
-   external-url: resources/papers/CodingTactileSymbols.pdf
+   external-url: resources/papers/Coding-Phonemes.pdf
 preview: /images/CodingTactile/teaser.png
 color: "#FF8C00"
 teammates:
