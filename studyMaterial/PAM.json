@@ -1,0 +1,17 @@
+[{"schedule_id":"daily_PAM",
+                "hours":[19,20,21],
+                "start_date":"10-28-2016",
+                "end_date":"12-28-2020",
+                "expiration":240,
+                "randomize":5,
+                "notification_title":"Cohort Study",
+                "notification_body":"Click to answer your survey",
+                "esms":[{"esm": {
+                  "esm_type": 8,
+                  "esm_title": "How are you feeling?",
+                  "esm_instructions": "Select the photo that best captures how you feel right now:",
+                  "esm_submit": "Submit",
+                  "esm_expiration_threshold": 240
+                  }
+                  }]
+}]
