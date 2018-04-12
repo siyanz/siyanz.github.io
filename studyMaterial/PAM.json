@@ -11,7 +11,8 @@
                   "esm_title": "How are you feeling?",
                   "esm_instructions": "Select the photo that best captures how you feel right now:",
                   "esm_submit": "Submit",
-                  "esm_expiration_threshold": 240
+                  "esm_expiration_threshold": 240,
+                  "esm_trigger": "trigger"
                   }
                   }]
 }]
