@@ -164,187 +164,46 @@
 .push-11 {
   left: 880px;
 }
-/* Widescreen */
-@media screen and (min-width: 1300px) {
-  .typegrid-container {
-    width: 1200px;
-  }
-  .desktop-1 {
-    width: 100px;
-  }
-  .desktop-2 {
-    width: 200px;
-  }
-  .desktop-3 {
-    width: 300px;
-  }
-  .desktop-4 {
-    width: 400px;
-  }
-  .desktop-5 {
-    width: 500px;
-  }
-  .desktop-6 {
-    width: 600px;
-  }
-  .desktop-7 {
-    width: 700px;
-  }
-  .desktop-8 {
-    width: 800px;
-  }
-  .desktop-9 {
-    width: 900px;
-  }
-  .desktop-10 {
-    width: 1000px;
-  }
-  .desktop-11 {
-    width: 1100px;
-  }
-  .desktop-12 {
-    width: 1200px;
-  }
-  .offset-1 {
-    margin-left: 100px;
-  }
-  .offset-2 {
-    margin-left: 200px;
-  }
-  .offset-3 {
-    margin-left: 300px;
-  }
-  .offset-4 {
-    margin-left: 400px;
-  }
-  .offset-5 {
-    margin-left: 500px;
-  }
-  .offset-6 {
-    margin-left: 600px;
-  }
-  .offset-7 {
-    margin-left: 700px;
-  }
-  .offset-8 {
-    margin-left: 800px;
-  }
-  .offset-9 {
-    margin-left: 900px;
-  }
-  .offset-10 {
-    margin-left: 1000px;
-  }
-  .offset-11 {
-    margin-left: 1100px;
-  }
-  .pull-1 {
-    right: 100px;
-  }
-  .pull-2 {
-    right: 200px;
-  }
-  .pull-3 {
-    right: 300px;
-  }
-  .pull-4 {
-    right: 400px;
-  }
-  .pull-5 {
-    right: 500px;
-  }
-  .pull-6 {
-    right: 600px;
-  }
-  .pull-7 {
-    right: 700px;
-  }
-  .pull-8 {
-    right: 800px;
-  }
-  .pull-9 {
-    right: 900px;
-  }
-  .pull-10 {
-    right: 1000px;
-  }
-  .pull-11 {
-    right: 1100px;
-  }
-  .push-1 {
-    left: 100px;
-  }
-  .push-2 {
-    left: 200px;
-  }
-  .push-3 {
-    left: 300px;
-  }
-  .push-4 {
-    left: 400px;
-  }
-  .push-5 {
-    left: 500px;
-  }
-  .push-6 {
-    left: 600px;
-  }
-  .push-7 {
-    left: 700px;
-  }
-  .push-8 {
-    left: 800px;
-  }
-  .push-9 {
-    left: 900px;
-  }
-  .push-10 {
-    left: 1000px;
-  }
-  .push-11 {
-    left: 1100px;
-  }
-}
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 959px) {
   .typegrid-container {
-    width: 660px;
+    width: 100%;
   }
   .desktop-1 {
-    width: 55px;
+    width: 8.3333%;
   }
   .desktop-2 {
-    width: 110px;
+    width: 16.66667%;
   }
   .desktop-3 {
-    width: 165px;
+    width: 50%;
   }
   .desktop-4 {
-    width: 220px;
+    width: 50%;
   }
   .desktop-5 {
-    width: 275px;
+    width: 50%;
   }
   .desktop-6 {
-    width: 330px;
+    width: 50%;
   }
   .desktop-7 {
-    width: 385px;
+    width: 560px;
   }
   .desktop-8 {
-    width: 440px;
+    width: 640px;
   }
   .desktop-9 {
-    width: 495px;
+    width: 720px;
   }
   .desktop-10 {
-    width: 550px;
+    width: 800px;
   }
   .desktop-11 {
-    width: 605px;
+    width: 880px;
   }
   .desktop-12 {
-    width: 660px;
+    width: 100%;
   }
   .tablet-1 {
     width: 55px;
