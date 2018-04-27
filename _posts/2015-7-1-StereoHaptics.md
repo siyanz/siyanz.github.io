@@ -5,7 +5,7 @@ shortinfo: A framework to create, record, modify, and playback rich and dynamic 
 year: 2016
 categories: [Research, HCI]
 resources:
- - resource: Paper1
+ - resource: Paper
    external-url: /resources/papers/Stereohaptics.pdf
 color: "#FF8C00"
 preview: /images/Stereohaptics/teaser.png
