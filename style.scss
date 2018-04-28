@@ -65,6 +65,7 @@ body{
 .content {
   padding-top: $menuPadding;
   padding-left: 20px;
+  padding-right: 20px;
   max-width: calc(900px);
   margin-left: auto;
   margin-right: auto;
@@ -514,6 +515,14 @@ footer {
     left: inherit;
     right: 0px;
     border: none;
+
+    li {
+      padding: 10px 0;
+    }
+
+    .divider {
+      width: 100%;
+    }
 }
 
 ul.dropdown-menu>li>a>i.fa {
@@ -626,31 +635,6 @@ ul.dropdown-menu>li>a>i.fa {
   max-width: 100%;
   // height: auto;
 }
-//
-// @media screen and (min-width: 1600px) {
-//   #works.stackgrid .item { width: 20%; }
-// }
-//
-// @media screen and (min-width: 960px) and (max-width: 1599px) {
-//   #works.stackgrid .item { width: 25%; }
-// }
-//
-// @media screen and (min-width: 768px) and (max-width: 959px) {
-//   #works.stackgrid .item { width: 33.333333%; }
-// }
-//
-// @media screen and (min-width: 480px) and (max-width: 767px) {
-//   #works.stackgrid .item { width: 50%; }
-// }
-//
-// @media screen and (max-width: 479px) {
-//   #works.stackgrid .item { width: 100%; }
-// }
-//
-// #works.stackgrid .item .box-desc {
-//   padding: 15px 30px;
-//   text-align: center;
-// }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
