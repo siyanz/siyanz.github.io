@@ -3,57 +3,20 @@
 
     <h2>Logos</h2>
 
-    <!-- <a href="illustrations.html" class="permalink"> -->
-      <div class="desktop-4 columns">
-        <div class="item img-container">
-          <img src="../images/portfolio/logos/feelChat.jpg" alt="" />
-
-          <!-- <h3>Illustrations</h3> -->
-        </div><!-- // .item -->
+    {% assign i = 0 %}
+    {% for item in site.logos %}
+      <div class="desktop-4 columns item">
+          <img class="logo-img" src="../images/portfolio/logos/{{ item.fileName }}.jpg" alt="" />
       </div><!-- // .desktop-6 -->
-    <!-- </a> -->
+      {% assign i = i | plus: 1 %}
 
+      {% assign j = i | modulo: 3 %}
+      {% if j == 0 and i != 0 %}
 
-      <div class="desktop-4 columns">
-        <div class="item">
-          <img src="../images/portfolio/logos/feelCraft.jpg" alt="" />
+          <div class="clear"></div>
+      {% endif %}
 
-        </div><!-- // .item -->
-      </div><!-- // .desktop-6 -->
-
-
-
-      <div class="desktop-4 columns">
-        <div class="item">
-          <img src="../images/portfolio/logos/feelCraft2.jpg" alt="" />
-
-        </div><!-- // .item -->
-      </div><!-- // .desktop-6 -->
-
-
-    <div class="clear"></div>
-
-    <div class="desktop-4 columns">
-      <div class="item">
-        <img src="../images/portfolio/logos/TEI.jpg" alt="" />
-
-      </div><!-- // .item -->
-    </div><!-- // .desktop-6 -->
-
-
-    <div class="desktop-4 columns">
-      <div class="item">
-        <img src="../images/portfolio/logos/MR-logo.jpg" alt="" />
-
-      </div><!-- // .item -->
-    </div><!-- // .desktop-6 -->
-
-    <div class="desktop-4 columns">
-      <div class="item">
-        <img src="../images/portfolio/logos/fruitCalendar.jpg" alt="" />
-
-      </div><!-- // .item -->
-    </div><!-- // .desktop-6 -->
+    {% endfor %}
 
     <div class="clear"></div>
 
@@ -61,41 +24,23 @@
 
     <br>
 
-    <h3>Illustrations</h3>
+    <h2>Illustrations</h2>
 
-    <!-- <a href="illustrations.html" class="permalink"> -->
-      <div class="desktop-6 columns">
-        <div class="item">
-          <img src="../images/portfolio/illustrations/italy-sticker.png" alt="" />
-
-          <!-- <h3>Illustrations</h3> -->
-        </div><!-- // .item -->
+    {% assign i = 0 %}
+    {% for item in site.illustrations %}
+      <div class="desktop-6 columns item">
+          <img class="logo-img" src="../images/portfolio/illustrations/{{ item.fileName }}.jpg" alt="" />
       </div><!-- // .desktop-6 -->
-    <!-- </a> -->
+      {% assign i = i | plus: 1 %}
 
+      {% assign j = i | modulo: 2 %}
+      {% if j == 0 and i != 0 %}
+          <div class="clear"></div>
+      {% endif %}
+    {% endfor %}
 
-      <div class="desktop-6 columns">
-        <div class="item">
-          <img src="../images/portfolio/illustrations/furniture-logo.jpg" alt="" />
+    <div class="clear"></div>
 
-        </div><!-- // .item -->
-      </div><!-- // .desktop-6 -->
-
-
-    <div class="desktop-6 columns">
-      <div class="item">
-        <img src="../images/portfolio/illustrations/FOSSILL_v2.jpg" alt="" />
-
-      </div><!-- // .item -->
-    </div><!-- // .desktop-6 -->
-
-    <div class="desktop-6 columns">
-      <div class="item">
-        <img src="../images/portfolio/illustrations/tiger.jpg" alt="" />
-
-        </div><!-- // .item -->
-      </div><!-- // .desktop-6 -->
-
-      <br>
+    <br>
 
   </div>
