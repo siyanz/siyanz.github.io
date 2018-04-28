@@ -1,15 +1,22 @@
 ---
 layout: page
-title: Who is Siyan
+title: About Me
 permalink: /about/
 ---
+<div class="typegrid-container">
 
-![This is me]({{ site.baseurl }}/images/siyan.png "This is me")
+  <div class="desktop-9 columns">
+    <p>I am a 3rd year PhD student at the Human-Computer Interaction Institute at Carnegie Mellon University, co-advised by Dr. Jason Hong and Dr. Robert Kraut. </p>
 
-Siyan Zhao (SI-yen JOW)
+    <p>My research focus is using mobile sensing to study human relationships. I am particularly interested in relationships between romantic couples, e.g., can data sensed on mobile phones tell us something about the nature of a romantic relationship? How does a romantic relationship differ from a friendship based on mobile phone data? </p>
 
-I am currently a 3rd year PhD student at the Human-Computer Interaction Institute at Carnegie Mellon University, co-advised by Dr. Jason Hong and Dr. Robert Kraut.
+    <p>I am a lifelong learner, seeking opportunities to hone and broaden my skill set. In my spare time, I enjoy reading books, watching movies, and making some <a href="http://www.beeboopboop.com" target="_blank"> comics about my life </a>. I also value physical activities. My current exercise activities are swimming and yoga. </p>
+  </div>
 
-With a background in psychology, my research interest is to work with people to understand people. My current focus is using mobile sensing to study human relationships. I am particularly interested in relationships between romantic couples, e.g., can data sensed on mobile phones tell us something about the nature of a romantic relationship? How does a romantic relationship differ from a friendship based on mobile phone data?
+  <div class="desktop-3 columns" style="padding-left:10px; padding-top:18px;">
+      <!-- <h5>Siyan Zhao</h5>
+      <h5>SI-yen JOW</h5> -->
+    <img class="logo-img" src="{{ site.baseurl }}/images/2018chi.jpg"/>
 
-I consider myself as a lifelong learner, seeking opportunities to hone and broaden my skill set. In my spare time, I enjoy reading books, watching movies, and making some [comics about my life](http://www.beeboopboop.com). I also value physical activities. My current exercise activities are swimming and yoga.
+  </div>
+</div>
