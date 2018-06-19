@@ -166,6 +166,11 @@ a.nav-link:hover { color: #777; }
   padding: 15px 30px;
   padding-bottom: 0;
   }
+
+  a.active{
+    // text-decoration: underline;
+    border-bottom: 2px solid #FF8C00;
+  }
   a {
     color: #554E47;
     padding: 10px 10px 5px 10px;
