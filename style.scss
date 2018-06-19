@@ -55,6 +55,18 @@ body{
   a.noStyle{
     color: #404040;
   }
+
+  a.active{
+    // text-decoration: underline;
+    border-bottom: 2px solid #FF8C00;
+
+    @media only screen and (max-width: 768px) {
+      border-bottom: none;
+      color: white;
+      background-color: #FF8C00;
+
+    }
+  }
 }
 
 .container {
@@ -129,6 +141,7 @@ a.nav-link:hover { color: #777; }
     &:hover {
       color: white;
     }
+
   }
 
   @media only screen and (max-width: 768px) {
@@ -167,10 +180,6 @@ a.nav-link:hover { color: #777; }
   padding-bottom: 0;
   }
 
-  a.active{
-    // text-decoration: underline;
-    border-bottom: 2px solid #FF8C00;
-  }
   a {
     color: #554E47;
     padding: 10px 10px 5px 10px;
@@ -540,7 +549,7 @@ footer {
     border: none;
 
     li {
-      padding: 10px 0;
+      padding: 5px 0;
     }
 
     .divider {
