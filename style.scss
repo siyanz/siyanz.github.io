@@ -26,7 +26,7 @@ body{
     font-weight: 400;
     font-size: 36px;
     line-height: 1.4em;
-}
+  }
   h3 {
     padding-top:1.2em;
     font-size: 26px;
@@ -71,6 +71,11 @@ body{
 
     }
   }
+}
+
+.hidden {
+  display: none!important;
+  visibility: hidden!important;
 }
 
 .container {
@@ -193,6 +198,7 @@ a.nav-link:hover { color: #777; }
   }
 }
 
+// Category Tags
 .category-menu {
   text-align: center;
   margin-bottom: 10px;
@@ -215,6 +221,7 @@ a.nav-link:hover { color: #777; }
   a {
     color: #555;
     // background-color: #eee;
+    cursor: pointer;
     padding: 3px 8px 3px 8px;
 
     @media only screen and (max-width: 768px) {
