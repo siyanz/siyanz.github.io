@@ -54,12 +54,11 @@ function showContainer(tag){
     var post = postItems[i];
     var postId = $(post).attr('id');
 
+    $(post).fadeOut("fast");
     if(tag.toLowerCase() == "all") {
-      $(post).removeClass("hidden");
+      $(post).fadeIn("fast");
     }else if(postId.toLowerCase().indexOf(tag.toLowerCase()) >= 0) {
-      $(post).removeClass("hidden");
-    }else {
-      $(post).addClass("hidden");
+      $(post).fadeIn("fast");
     }
   }
 }
