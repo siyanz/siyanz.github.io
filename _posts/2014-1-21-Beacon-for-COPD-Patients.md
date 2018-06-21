@@ -3,7 +3,7 @@ layout: post
 title: Beacon&#58; Decision Aid for COPD Patients
 shortinfo: Creating a tool to educate patients about risks and benefits of each treatment for severe Chronic Obstructive Pulmonary Disease (COPD) and help them connect their values and individual circumstances with their treatment choice.
 year: 2014
-categories: [UX, Research]
+categories: [UX]
 resources:
  - resource: Prototype
    external-url: http://juliat.github.io/copdda/#intro

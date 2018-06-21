@@ -4,7 +4,7 @@ tagline:
 ---
 <div class="category-menu">
   <ul class="category-tags">
-    <li class="category-tag-li">Show by: </li>
+    <li class="category-tag-li">Show: </li>
     <li class="category-tag-li"><a class="category-tag-a" id="category-all" onclick="filter('all'); return false;">All</a></li>
     {% for category in site.categories%}
       {% assign t = category | first %}
@@ -16,59 +16,61 @@ tagline:
 
 <div class="index-divider"> </div>
 {% for post in site.posts %}
-<article class="entry row">
-<div class="col-sm-12">
+<div class="post-div" id="{{ post.categories }}">
+  <article class="entry row">
+  <div class="col-sm-12">
 
-  <div class="col-sm-4">
-    <div class="index-img">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <img src="{{ post.preview | prepend: site.baseurl }}">
-      </a>
+    <div class="col-sm-4">
+      <div class="index-img">
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <img src="{{ post.preview | prepend: site.baseurl }}">
+        </a>
+      </div>
     </div>
+
+
+    <div class="col-sm-8">
+      <div class="info">
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <h2>
+            {{ post.title }}
+          </h2>
+        </a>
+
+        <div class="blurb">
+          {% if post.shortinfo %}
+          <p>{{ post.shortinfo }}</p>
+          {% endif %}
+        </div>
+
+        <div class="blurb-links">
+          {% if post.resources %}
+      		<ul class="list-unstyled">
+      			{% for res in post.resources %}
+      				<li><a href= "{{ res.external-url }}" target="_blank">
+                {% if res.resource contains "Video" %}
+                <i class="fa fa-film" aria-hidden="true"></i>
+                {% elsif res.resource contains "Paper" %}
+                <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                {% elsif res.resource contains "Poster" %}
+                <i class="fa fa-file-image-o" aria-hidden="true"></i>
+                {% elsif res.resource contains "Prototype" %}
+                <i class="fa fa-globe" aria-hidden="true"></i>
+                {% endif %}
+                {{ res.resource }}
+              </a></li>
+      			{% endfor %}
+      		</ul>
+      		{% endif %}
+        </div>
+
+      </div>
+    </div>
+
   </div>
 
+  </article>
 
-  <div class="col-sm-8">
-    <div class="info">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <h2>
-          {{ post.title }}
-        </h2>
-      </a>
-
-      <div class="blurb">
-        {% if post.shortinfo %}
-        <p>{{ post.shortinfo }}</p>
-        {% endif %}
-      </div>
-
-      <div class="blurb-links">
-        {% if post.resources %}
-    		<ul class="list-unstyled">
-    			{% for res in post.resources %}
-    				<li><a href= "{{ res.external-url }}" target="_blank">
-              {% if res.resource contains "Video" %}
-              <i class="fa fa-film" aria-hidden="true"></i>
-              {% elsif res.resource contains "Paper" %}
-              <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-              {% elsif res.resource contains "Poster" %}
-              <i class="fa fa-file-image-o" aria-hidden="true"></i>
-              {% elsif res.resource contains "Prototype" %}
-              <i class="fa fa-globe" aria-hidden="true"></i>
-              {% endif %}
-              {{ res.resource }}
-            </a></li>
-    			{% endfor %}
-    		</ul>
-    		{% endif %}
-      </div>
-
-    </div>
-  </div>
-
+  <div class="index-divider"> </div>
 </div>
-
-</article>
-
-<div class="index-divider"> </div>
 {% endfor %}

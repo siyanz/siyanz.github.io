@@ -3,7 +3,7 @@ layout: post
 title: Stereohaptics&#58; A Haptic Interaction Toolkit for Tangible Virtual Experiences
 shortinfo: A framework to create, record, modify, and playback rich and dynamic haptic media using audio based tools. Using haptic illusion at its finest.
 year: 2016
-categories: [Research, Academic, UX]
+categories: [Academic, UX]
 resources:
  - resource: Paper
    external-url: /resources/papers/Stereohaptics.pdf

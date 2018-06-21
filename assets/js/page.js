@@ -25,12 +25,12 @@ $( document ).ready(function() {
     }
 
     setActiveTag("all");
-    // $(".category-all").addClass("active");
+    showContainer("all");
 });
 
 function filter(tag) {
   setActiveTag(tag);
-  // showContainer(tag);
+  showContainer(tag);
 }
 
 function setActiveTag(tag) {
@@ -44,6 +44,22 @@ function setActiveTag(tag) {
     } else {
       $(cat).removeClass("active");
     }
+  }
+}
 
+function showContainer(tag){
+  var postItems = $(".post-div");
+
+  for (var i = 0; i < postItems.length; i++) {
+    var post = postItems[i];
+    var postId = $(post).attr('id');
+
+    if(tag.toLowerCase() == "all") {
+      $(post).removeClass("hidden");
+    }else if(postId.toLowerCase().indexOf(tag.toLowerCase()) >= 0) {
+      $(post).removeClass("hidden");
+    }else {
+      $(post).addClass("hidden");
+    }
   }
 }

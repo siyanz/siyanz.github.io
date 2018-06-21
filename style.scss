@@ -206,12 +206,21 @@ a.nav-link:hover { color: #777; }
   display: table-cell;
   padding: 15px 15px;
   padding-bottom: 0;
+
+  @media only screen and (max-width: 768px) {
+    padding: 15px 10px;
+  }
   }
 
   a {
     color: #555;
     // background-color: #eee;
     padding: 3px 8px 3px 8px;
+
+    @media only screen and (max-width: 768px) {
+      padding: 2px 8px 2px 8px;
+      background-color: none;
+    }
   }
 
   a:hover{
