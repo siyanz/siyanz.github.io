@@ -3,7 +3,7 @@ layout: post
 title: Feeling Stories&#58; Using Haptic Inputs to Enrich Story Listening for Young Children
 shortinfo: Using meaningful haptic signals to help young children better understand stories.
 year: 2015
-categories: [Academic]
+categories: [Publication]
 resources:
  - resource: Paper
    external-url: /resources/papers/Feeling-Stories.pdf

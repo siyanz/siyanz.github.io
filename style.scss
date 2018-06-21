@@ -50,6 +50,7 @@ body{
   }
   a {
     text-decoration: none;
+    font-family: "Droid Sans", sans-serif;
     color: #FF8C00;
   }
   a:hover, a:focus {
@@ -90,6 +91,7 @@ body{
   max-width: calc(900px);
   margin-left: auto;
   margin-right: auto;
+  border-top: 1px solid #ddd;
 
   @media only screen and (max-width: 768px) {
     padding-top: $menuPaddingDevice;
@@ -198,10 +200,19 @@ a.nav-link:hover { color: #777; }
   }
 }
 
+//
+#page-description{
+  width: 80%;
+  margin: auto;
+  color: #666;
+  line-height: 1.7em;
+  padding-bottom: 10px;
+}
+
 // Category Tags
 .category-menu {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 .category-menu ul {
@@ -215,6 +226,7 @@ a.nav-link:hover { color: #777; }
 
   @media only screen and (max-width: 768px) {
     padding: 15px 10px;
+    border-bottom: 1px solid #ddd;
   }
   }
 
@@ -291,7 +303,7 @@ article.entry h4 a {
 
 article.entry {
   padding: 0;
-  margin: 0 0 35px 0;
+  margin: 0 0 70px 0;
   .col-sm-4 {
     padding-right: 10px;
     padding-left: 10px;
@@ -435,7 +447,7 @@ article.entry {
 
 .index-divider {
   background-color: #ccc;
-  width: 25%;
+  width: 20%;
   border: none;
   height: 1px;
   margin-left: auto;

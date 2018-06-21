@@ -2,9 +2,10 @@
 layout: page
 tagline:
 ---
+<p id="page-description"> Below is a selection of my work in UX, design, and academic research. Many have lead to publications at top venues in Human-Computer Interaction.</p>
 <div class="category-menu">
   <ul class="category-tags">
-    <li class="category-tag-li">Show: </li>
+    <!-- <li class="category-tag-li">Show: </li> -->
     <li class="category-tag-li"><a class="category-tag-a" id="category-all" onclick="filter('all'); return false;">All</a></li>
     {% for category in site.categories%}
       {% assign t = category | first %}
@@ -14,7 +15,7 @@ tagline:
   </ul>
 </div>
 
-<div class="index-divider"> </div>
+<!-- <div class="index-divider"> </div> -->
 {% for post in site.posts %}
 <div class="post-div" id="{{ post.categories }}">
   <article class="entry row">
@@ -71,6 +72,6 @@ tagline:
 
   </article>
 
-  <div class="index-divider"> </div>
+  <!-- <div class="index-divider"> </div> -->
 </div>
 {% endfor %}

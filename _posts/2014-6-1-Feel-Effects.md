@@ -3,7 +3,7 @@ layout: post
 title: Feel Effect&#58; Enriching Storytelling with Haptic Feedback
 shortinfo: Designing meaningful haptic signals that deliver semantic meanings.
 year: 2014
-categories: [Academic]
+categories: [Publication]
 resources:
  - resource: Paper
    external-url: /resources/papers/Feel_Effects.pdf

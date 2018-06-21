@@ -3,7 +3,7 @@ layout: post
 title: Coding Tactile Symbols for Phonetic Communication
 shortinfo: Hearing with your skin using a phonetic approach. A exciting summer internship exploration.
 year: 2018
-categories: [Academic]
+categories: [Publication]
 resources:
  - resource: Paper
    external-url: resources/papers/Coding-Phonemes.pdf
