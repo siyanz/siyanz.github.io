@@ -2,8 +2,20 @@
 layout: page
 tagline:
 ---
-{% for post in site.posts %}
+<div class="category-menu">
+  <ul class="category-tags">
+    <li class="category-tag-li">Show by: </li>
+    <li class="category-tag-li"><a class="category-tag-a" id="category-all" onclick="filter('all'); return false;">All</a></li>
+    {% for category in site.categories%}
+      {% assign t = category | first %}
+      {% assign posts = category | last %}
+      <li class="category-tag-li"><a class="category-tag-a" onclick="filter('{{ t }}'); return false;">{{ t }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
 
+<div class="index-divider"> </div>
+{% for post in site.posts %}
 <article class="entry row">
 <div class="col-sm-12">
 

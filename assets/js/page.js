@@ -23,4 +23,27 @@ $( document ).ready(function() {
         }
       }
     }
+
+    setActiveTag("all");
+    // $(".category-all").addClass("active");
 });
+
+function filter(tag) {
+  setActiveTag(tag);
+  // showContainer(tag);
+}
+
+function setActiveTag(tag) {
+  var catItems = $(".category-tag-a");
+
+  for (var i = 0; i < catItems.length; i++) {
+    var cat = catItems[i];
+    var catText = $(cat).text().toLowerCase();
+    if (catText == tag.toLowerCase()) {
+      $(cat).addClass("active");
+    } else {
+      $(cat).removeClass("active");
+    }
+
+  }
+}
