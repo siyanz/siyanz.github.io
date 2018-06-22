@@ -11,7 +11,7 @@ $( document ).ready(function() {
       // TODO get text of item match to highlightName
       var itemText = $(item).text().toLowerCase();
 
-      if (highlightName == "" || ["publication", "ux"].includes(highlightName)) {
+      if (highlightName == "" || ["publications", "ux"].includes(highlightName)) {
         if (itemText == "research") {
           $(item).addClass("active");
         }
