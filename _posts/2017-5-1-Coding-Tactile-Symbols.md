@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Coding Tactile Symbols for Phonetic Communication
-shortinfo: Hearing with your skin using a phonetic approach. A exciting summer internship exploration.
+shortinfo: Hearing with the skin. An exciting summer research exploration with Facebook.
 year: 2018
 categories: [Publications]
 resources:
@@ -16,5 +16,4 @@ teammates:
  - name: fAbousi
 ---
 ### Project Description
-We present a study to examine one’s learning and processing capacity of broadband tactile information, such
-as that derived from speech. By associating 9 haptic custom-designed symbols to 9 phonemes using location of articulation, we demonstrated that novel users can recognize, learn, and retain the tactile symbols, aka haptic words. They can further generalize the knowledge to recognize new words that they have not trained on before.
+We designed a haptic device that associates 9 custom-made haptic symbols to different phonemes. Combining these phonemes, the device forms haptic words and plays on users' forearm to deliver information. Our lab study showed that, with approximately 25 minutes of training, users can recognize, learn, and remember the 9 haptic phonemes and 20 haptic words (sequences of haptic phonemes). The users can further generalize the knowledge to recognize new words that they have not trained on before.
