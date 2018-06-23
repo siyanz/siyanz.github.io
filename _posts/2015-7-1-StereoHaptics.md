@@ -44,6 +44,12 @@ Case 2: How would music feel on one's feet? This group tried out this crazily fu
 Case 3: This group designed a haptic feedback system for shopping carts so that visually impaired individuals can maneuver their way between narrow isles. To enact the environment, they also used small tables and masking tape.
 ![Case 3: shopping cart for the blind with Stereohaptics]({{ site.baseurl }}/images/Stereohaptics/case3-shoppingcart.jpg)
 
+### Survey
+
+![Post-workshop survey]({{ site.baseurl }}/images/Stereohaptics/survey.png)
+A survey was sent out to participants after each workshop. Many participants had a very positive experience at the workshop and expressed further interest in working with our toolkit. We also collected recommendations to improve our future sessions, many of which were related to wanting more hands-on time with the toolkit.
+
+
 ### Final Toolkits
 
 #### Generation 1. SIGGRAPH'15
