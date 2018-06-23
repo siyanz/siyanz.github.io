@@ -3,6 +3,7 @@ layout: post
 title: Coding Tactile Symbols for Phonetic Communication
 shortinfo: Hearing with the skin. An exciting summer research exploration with Facebook.
 year: 2018
+month: May
 categories: [Publications]
 resources:
  - resource: Paper
