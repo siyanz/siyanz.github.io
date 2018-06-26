@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Intermanual Apparent Tactile Motion
-shortinfo: A work exploring the usage of haptic (touch) illusions in enriching media content. A ideal balance of psychology research and Human-Computer Interaction design.
+shortinfo: A work exploring the usage of haptic (touch) illusions in enriching media content. An ideal balance of lab research and real-life applications.
 year: 2015
 categories: [Publications]
+problem: Current haptic feedback is uniform in design and lacks granularity in the information it delivers.
+goal: To design dynamic and moving haptic feedback and apply it in media content for enriched users' experience.
 resources:
  - resource: Paper1
    external-url: http://disneyresearch.s3-us-west-1.amazonaws.com/wp-content/uploads/20150719204348/Intermanual-Apparent-Tactile-Motion-on-Handheld-Tablets-Paper.pdf
