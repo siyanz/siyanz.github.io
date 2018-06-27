@@ -3,6 +3,7 @@ layout: post
 title: Feeling Stories&#58; Using Haptic Inputs to Enrich Story Listening for Young Children
 shortinfo: Using meaningful haptic signals to help young children better understand stories.
 year: 2015
+month: June
 categories: [Publications]
 problem: Traditional story listening is losing its appeal to other entertainment technology such as video games. How can haptic feedback help children maintain interest in stories they listen to?
 goal: To design haptic feedback that fits in children's stories and helps them better focus on the stories they listen to.

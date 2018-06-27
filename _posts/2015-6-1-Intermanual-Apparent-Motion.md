@@ -3,6 +3,7 @@ layout: post
 title: Intermanual Apparent Tactile Motion
 shortinfo: A work exploring the usage of haptic (touch) illusions in enriching media content. An ideal balance of lab research and real-life applications.
 year: 2015
+month: June
 categories: [Publications]
 problem: Current haptic feedback is uniform in design and lacks granularity in the information it delivers.
 goal: To design dynamic and moving haptic feedback and apply it in media content for enriched users' experience.

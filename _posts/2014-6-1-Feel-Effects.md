@@ -3,7 +3,10 @@ layout: post
 title: Feel Effect&#58; Enriching Storytelling with Haptic Feedback
 shortinfo: Designing meaningful haptic signals that deliver semantic meanings.
 year: 2014
+month: August
 categories: [Publications]
+problem: How to design haptic feedback so that they can convey semantic meaning to users?
+goal: To develop a set of haptic vocabularies that convey meaning without visual or auditory information.
 resources:
  - resource: Paper
    external-url: /resources/papers/Feel_Effects.pdf
@@ -16,7 +19,6 @@ teammates:
  - name: rKlatzky
 ---
 
-### Project Description
 The word haptics refers to the sense of touch. In technology, haptics are commonly used in phones that vibrate to alert users or in game controllers to enhance entertaining experience. Unlike artists who use sound or vision, haptic designers cannot simply access libraries of meaningful effects that can be used directly in media content. Furthermore, they lack even guiding principles for creating such effects.
 
 In our research, we built a library of haptic sensations, called feel effects. They are meaningful haptic signals that deliver semantic meanings. These feel effects are grouped using semantics into 6 families, Rain, Pulse, Brush, Strike, Travel, and Motor Sounds. With this haptic library in hand, haptic designers could easily pick and add haptic sensations to their own content.
