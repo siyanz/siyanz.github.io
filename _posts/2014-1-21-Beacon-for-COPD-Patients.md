@@ -32,7 +32,7 @@ teammates:
 ### Background
 Chronic Obstructive Pulmonary Disease (COPD), commonly known as emphysema, limits the ability of a person's lungs to retain oxygen. People with COPD have severe issues with breathing. Many individuals describe their difficult experience as "breathing through a coffee straw". This significantly decreases their quality of life. While there is no cure for COPD, there are two approaches to alleviate the condition: medical treatments (oxygen, bronchodilators, steroids, pulmonary rehabilitation) and a lung transplant. The process of choosing between these two options can be confusing.
 
-In collaboration with University of Pittsburgh Medical Center (UPMC), we worked with Dr. Cynthis Gries to design a decision aid to help patients choose a treatment that best fits their needs and values.
+In collaboration with University of Pittsburgh Medical Center (UPMC), we worked with Dr. Cynthis Gries to design a decision aid that helps patients choose a treatment that best fits their needs and values.
 
 ### My Role
 As the research lead of the team, I, with my team, interviewed stakeholders, doctors, social workers and caregivers, in the early stage. We also talked to pre- and post-transplant patients to understand their worries and concerns. In the design phase, I lead the team to conduct think-alouds and interviews to test our prototypes.
@@ -41,11 +41,11 @@ As the research lead of the team, I, with my team, interviewed stakeholders, doc
 ![Project timeline]({{ site.baseurl }}/images/Beacon/timeline.png "Project timeline")
 
 #### Background Research
-To better help the patients, we started off by reading existing literatures on COPD, its treatment and reviewing decision aids for other diseases. This was followed by multiple visits to the UPMC to observe COPD information sessions and consulting sessions for patients. We collected a copy of information packet that the hospital hands out to patients, which contains all the information, regarding to the disease, insurance, lung transplant surgery, and after-surgery care, the patients needs to know. Last but not least, we interviewed with stakeholders who were involved in patients' decision making process. Those stakeholders were, but not limited to, caregivers, surgeons and pulmonologists. From the stakeholders, we wanted to get a full picture of what people need and want to know the most in order to make a decision on treatment.
+To better help the patients, we started off by reading existing literatures on COPD and its treatment. As there was no decision aid for COPD patients, we conducted a competitive analysis on existing decision aids for other diseases. This was followed by multiple visits to the UPMC hospital to observe COPD information sessions and consulting sessions. We collected a copy of information packet that the hospital handed out to patients. The packet contained all the information the patients needed to know, regarding to the disease, insurance, lung transplant surgery, and after-surgery care. Last but not least, we interviewed with stakeholders who were involved in patients' decision making process. Those stakeholders were, but not limited to, caregivers, social workers, surgeons and pulmonologists. From the stakeholders, we wanted to understand what people need to and want to know the most to make an informed decision on treatment.
 ![The official information packet]({{ site.baseurl }}/images/Beacon/packet.jpg "Information packet")
 
 #### Affinity Diagram
-We gathered a large amount of information from literature review, observations and interviews. An affinity diagram with all the findings pointed out 3 critical misconceptions that we needed to address in the decision aid. We found that:
+We gathered a large amount of information from literature review, observations and interviews. To consolidate these information and pull out critical findings, we went through 7 hours of affinity diagramming. From the diagram, 3 critical findings emerged:
 
 * Insight 1: patients think that risks and complications won't happen to them,
 
@@ -72,7 +72,7 @@ The sidebar navigation, on the other hand, offered more flexibility to go from s
 As COPD constraints patients' oxygen intake, it also limits their attention span. Therefore, it is critical to present information in an engaging and dynamic manner. To achieve this, we tried multiple methods of providing information to the patients. Other than texts, we integrated videos and quiz questions that stressed major takeaway points that the patients should know about for each treatment option (medical treatment vs. lung transplant).
 
 ![Scale Metaphor]({{ site.baseurl }}/images/Beacon/scaleMetaphor.png "We used visual scales to help patients evaluate their needs and values")
-We also used a scale metaphor that was commonly used in decision aids to visually present pros and cons of two options. Prior to the scale metaphor page, patients had to answer questions about what they valued the most in their lives and what they wanted to get out from the treatment. Depending on what values each treatment could satisfy, we put the values that the patients chose on two sides of the scale, each side representing one treatment option. By visually seeing which side the scale tilts against, patients would have a clearer idea of which treatment would be better for them.
+We also used a scale metaphor that was commonly used in decision aids to visually present pros and cons of two options. Prior to the scale metaphor page, patients had to answer questions about what they valued the most in their lives and what they wanted to get out from the treatment. Depending on what values each treatment could satisfy, we put the values that the patients chose on two sides of the scale, each side representing one treatment option. By visually seeing which side the scale tilts, patients can have a clearer idea of which treatment is better for them.
 
 #### Medium-Fidelity Prototype
 We built an interactive medium-fidelity prototype using a prototyping tool called Proto.io. During the medium-fidelity phrase, we focused on refining three key elements of the tool: the navigational structure, the interactive elements (i.e., quiz questions, videos, and the scale metaphor), and the content design.
