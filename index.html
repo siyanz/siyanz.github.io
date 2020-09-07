@@ -2,20 +2,34 @@
 layout: page
 tagline:
 ---
-<p id="page-description"> Below is a selection of my work in UX, design research, and academic research. Many have lead to publications at top venues in Human-Computer Interaction.</p>
-<p id="page-description"> To check out my design and illustration work or to contact me for a freelance opportunity, please visit my <a href="{{ site.baseurl}}/design" target="_blank">design page</a>.</p>
+<article class="entry row" id="about">
+    <div class="col-sm-12">
 
-<div class="category-menu">
-  <ul class="category-tags">
-    <!-- <li class="category-tag-li">Show: </li> -->
-    <li class="category-tag-li"><a class="category-tag-a" id="category-all" onclick="filter('all'); return false;">All</a></li>
-    {% for category in site.categories%}
-      {% assign t = category | first %}
-      {% assign posts = category | last %}
-      <li class="category-tag-li"><a class="category-tag-a" onclick="filter('{{ t }}'); return false;">{{ t }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+      <div class="col-sm-4">
+        <div class="about-img">
+          <img class="logo-img" src="{{ site.baseurl }}/images/2018chi.jpg"/>
+        </div>
+      </div>
+
+
+      <div class="col-sm-8" style="padding-left:0;">
+        <div class="info about-text">
+            <p class="about-text">I am currently finishing my PhD at the Human-Computer Interaction Institute at Carnegie Mellon University. With over 7 years of experience conducting quantitative research in both academia and industry, my forte is formulating clear and testable hypotheses and testing them using statistical tools, such as regression analysis. </p>
+            <!-- <p>I am currently a PhD candidate at the Human-Computer Interaction Institute at Carnegie Mellon University, co-advised by Dr. <a href="http://www.cs.cmu.edu/~jasonh/" target="_blank">Jason Hong</a> and Dr. <a href="https://hcii.cmu.edu/people/robert-kraut" target="_blank">Robert Kraut</a>. My research applies mobile sensing to study social relationships. </p> -->
+
+            <p class="about-text"> Advised by <a href="http://www.cs.cmu.edu/~jasonh/" target="_blank">Jason Hong</a> and <a href="https://hcii.cmu.edu/people/robert-kraut" target="_blank">Robert Kraut</a>, I closely study how social interactions are associated with subjective well-being. Specifically, my research applies mobile sensing to collect behavioral data that are predictive of when social interactions happen and what medium they are carried out. This powerful method provides an abundance of rich data, on which I apply statistical models to understand the role of social interactions in one's well-being.</p>
+            <!-- <p>More specifically, I am interested in <i>how everyday social interactions affect one's well-being</i>. How does interacting with friends or weak ties influence one's sense of loneliness? How will sharing a meal with someone change how happy or depressed they feel at the end of a day? Mobile sensing, combined with machine learning, allows me to predict occurrences of social interactions and the type of interactions (e.g., watching a movie or interacting with a colleague) without time-consuming surveys and questionnaires. This powerful method provides an abundance of rich data, on which I will apply statistical models to understand the role of social interactions in one's well-being.</p> -->
+
+            <!-- <p class="about-text">Before joining the HCII PhD program, I worked at Disney Research Pittsburgh with Ali Israr. I received my B.S in Cognitive Science at Carnegie Mellon University, where I worked with Roberta Klatzky.</p> -->
+            <!-- <p>I consider myself as a relentless lifelong learner, seeking opportunities to hone and broaden my skill set. In my spare time, I enjoy reading books, watching movies, and making some <a href="http://www.beeboopboop.com" target="_blank"> comics about my life </a>. I also value physical activities. My current exercise activities are swimming and yoga. </p> -->
+        </div>
+    </div>
+
+</article>
+
+<h3 id="research"> Selected Projects </h3>
+<p id="page-description"> Below is a selection of my work in UX, design research, and academic research. Many have lead to publications at top venues in Human-Computer Interaction.</p>
+<!-- <p id="page-description"> To check out my design and illustration work or to contact me for a freelance opportunity, please visit my <a href="{{ site.baseurl}}/design" target="_blank">design page</a>.</p> -->
 
 <!-- <div class="index-divider"> </div> -->
 {% for post in site.posts %}

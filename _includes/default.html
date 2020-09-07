@@ -54,9 +54,9 @@
             <i class="fa fa-bars"></i>
           </button>
           <ul class="dropdown-menu" role="menu">
-              <li><a class="main-nav-li" href="{{ site.baseurl }}/">Research</a></li>
+              <li><a class="main-nav-li" href="#about">About</a></li>
+              <li><a class="main-nav-li" href="#research">Research</a></li>
               <!-- <li><a class="main-nav-li" href="{{ site.baseurl }}/design/">Design</a></li> -->
-              <li><a class="main-nav-li" href="{{ site.baseurl }}/about/">About</a></li>
               <li><a class="main-nav-li" href="{{ site.baseurl }}/resources/CV.pdf" target="_blank">CV</a></li>
               <!--li><a href="{{ site.baseurl }}/categories.html">Categories</a></li-->
             <div class="divider"></div>
@@ -68,22 +68,29 @@
 
     <div class="row">
       <div class="col-sm-12 text-center hidden-xs navbar" role="navigation">
+        <header class="top-header">
+        </header>
         <div class="navbar-brand-div">
           <a href="{{ site.baseurl }}/">
-            <img src="{{ site.baseurl }}/images/SZ2.png" style="width: 10%;"/>
-            <h1 id="name">Siyan Zhao</h1>
+            <img src="{{ site.baseurl }}/images/SZ2.png" style="width: 8%;"/>
           </a>
+
+          <div class="main-nav-div">
+            <a href="{{ site.baseurl }}/">
+                <h1 id="name">Siyan Zhao</h1>
+            </a>
+            <nav id="main-nav">
+              <ul>
+              <li><a class="main-nav-li" href="#about">About</a></li>
+              <li><a class="main-nav-li" href="#research">Research</a></li>
+              <!-- <li><a class="main-nav-li" href="{{ site.baseurl }}/design/">Design</a></li> -->
+              <li><a class="main-nav-li" href="{{ site.baseurl }}/resources/CV.pdf" target="_blank">CV</a></li>
+              <!--<li><a class="main-nav-li" href="{{ site.baseurl }}/categories.html">Categories</a></li-->
+              <!--<li><a class="main-nav-li" href="{{ site.baseurl }}/resume/">Resume</a></li>-->
+              </ul>
+            </nav>
         </div>
-        <nav id="main-nav">
-          <ul>
-          <li><a class="main-nav-li" href="{{ site.baseurl }}/">Research</a></li>
-          <!-- <li><a class="main-nav-li" href="{{ site.baseurl }}/design/">Design</a></li> -->
-          <li><a class="main-nav-li" href="{{ site.baseurl }}/about/">About</a></li>
-          <li><a class="main-nav-li" href="{{ site.baseurl }}/resources/CV.pdf" target="_blank">CV</a></li>
-          <!--<li><a class="main-nav-li" href="{{ site.baseurl }}/categories.html">Categories</a></li-->
-          <!--<li><a class="main-nav-li" href="{{ site.baseurl }}/resume/">Resume</a></li>-->
-          </ul>
-        </nav>
+      </div>
       </div>
 
       <div class="content">
