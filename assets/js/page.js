@@ -75,11 +75,25 @@ $( document ).ready(function() {
 
       $(window).scroll(function(){
           console.log(window.pageYOffset);
-          if (window.pageYOffset > 80) {
+          if (window.pageYOffset > 175) {
             $(".main-nav-div").addClass("sticky-nav");
+            $(".place-holder-header").css({display: "block"});
+            $("#name-sticky-desktop").fadeIn(300);
           } else {
+            $("#name-sticky-desktop").fadeOut(1);
+            $(".place-holder-header").css({display: "none"});
             $(".main-nav-div").removeClass("sticky-nav");
           }
+
+          $('.website-section').each(function() {
+                if($(window).scrollTop() >= $(this).position().top) {
+                    // var id = $(this).attr('id');
+                    var item_name = $(this).attr('id');
+                    $('.main-nav-li').removeClass('active');
+                    console.log($('.main-nav-li a[href=#'+ item_name +']'));
+                    $('#main-nav ul li a[href=#'+ item_name +']').addClass('active');
+                }
+            });
 
       });
 });

@@ -2,92 +2,95 @@
 layout: page
 tagline:
 ---
-<article class="entry row" id="about">
-    <div class="col-sm-12">
+<div class="website-section" id="about">
+    <article class="entry row">
+        <div class="col-sm-12">
 
-      <div class="col-sm-4">
-        <div class="about-img">
-          <img class="logo-img" src="{{ site.baseurl }}/images/2018chi.jpg"/>
+          <div class="col-sm-4">
+            <div class="about-img">
+              <img class="logo-img" src="{{ site.baseurl }}/images/2018chi.jpg"/>
+            </div>
+          </div>
+
+
+          <div class="col-sm-8" style="padding-left:0;">
+            <div class="info about-text">
+                <p class="about-text">I am a quantitative researcher with over 7 years of experience conducting research in both academia and industry. My forte is formulating clear and testable hypotheses and testing them using statistical tools, such as regression analysis. </p>
+                <!-- <p>I am currently a PhD candidate at the Human-Computer Interaction Institute at Carnegie Mellon University, co-advised by Dr. <a href="http://www.cs.cmu.edu/~jasonh/" target="_blank">Jason Hong</a> and Dr. <a href="https://hcii.cmu.edu/people/robert-kraut" target="_blank">Robert Kraut</a>. My research applies mobile sensing to study social relationships. </p> -->
+
+                <p class="about-text"> I am currently finishing my PhD at the Human-Computer Interaction Institute at Carnegie Mellon University. Advised by <a href="http://www.cs.cmu.edu/~jasonh/" target="_blank">Jason Hong</a> and <a href="https://hcii.cmu.edu/people/robert-kraut" target="_blank">Robert Kraut</a>, I closely study how social interactions play a role in subjective well-being. Specifically, my research applies mobile sensing to collect behavioral data on smartphones. These data can predict when social interactions happen and what medium they are carried out. This powerful method provides an abundance of data, on which I apply statistical models to understand the role of social interactions in one's well-being.</p>
+                <!-- <p>More specifically, I am interested in <i>how everyday social interactions affect one's well-being</i>. How does interacting with friends or weak ties influence one's sense of loneliness? How will sharing a meal with someone change how happy or depressed they feel at the end of a day? Mobile sensing, combined with machine learning, allows me to predict occurrences of social interactions and the type of interactions (e.g., watching a movie or interacting with a colleague) without time-consuming surveys and questionnaires. This powerful method provides an abundance of rich data, on which I will apply statistical models to understand the role of social interactions in one's well-being.</p> -->
+
+                <!-- <p class="about-text">Before joining the HCII PhD program, I worked at Disney Research Pittsburgh with Ali Israr. I received my B.S in Cognitive Science at Carnegie Mellon University, where I worked with Roberta Klatzky.</p> -->
+                <!-- <p>I consider myself as a relentless lifelong learner, seeking opportunities to hone and broaden my skill set. In my spare time, I enjoy reading books, watching movies, and making some <a href="http://www.beeboopboop.com" target="_blank"> comics about my life </a>. I also value physical activities. My current exercise activities are swimming and yoga. </p> -->
+            </div>
         </div>
-      </div>
-
-
-      <div class="col-sm-8" style="padding-left:0;">
-        <div class="info about-text">
-            <p class="about-text">I am currently finishing my PhD at the Human-Computer Interaction Institute at Carnegie Mellon University. With over 7 years of experience conducting quantitative research in both academia and industry, my forte is formulating clear and testable hypotheses and testing them using statistical tools, such as regression analysis. </p>
-            <!-- <p>I am currently a PhD candidate at the Human-Computer Interaction Institute at Carnegie Mellon University, co-advised by Dr. <a href="http://www.cs.cmu.edu/~jasonh/" target="_blank">Jason Hong</a> and Dr. <a href="https://hcii.cmu.edu/people/robert-kraut" target="_blank">Robert Kraut</a>. My research applies mobile sensing to study social relationships. </p> -->
-
-            <p class="about-text"> Advised by <a href="http://www.cs.cmu.edu/~jasonh/" target="_blank">Jason Hong</a> and <a href="https://hcii.cmu.edu/people/robert-kraut" target="_blank">Robert Kraut</a>, I closely study how social interactions are associated with subjective well-being. Specifically, my research applies mobile sensing to collect behavioral data that are predictive of when social interactions happen and what medium they are carried out. This powerful method provides an abundance of rich data, on which I apply statistical models to understand the role of social interactions in one's well-being.</p>
-            <!-- <p>More specifically, I am interested in <i>how everyday social interactions affect one's well-being</i>. How does interacting with friends or weak ties influence one's sense of loneliness? How will sharing a meal with someone change how happy or depressed they feel at the end of a day? Mobile sensing, combined with machine learning, allows me to predict occurrences of social interactions and the type of interactions (e.g., watching a movie or interacting with a colleague) without time-consuming surveys and questionnaires. This powerful method provides an abundance of rich data, on which I will apply statistical models to understand the role of social interactions in one's well-being.</p> -->
-
-            <!-- <p class="about-text">Before joining the HCII PhD program, I worked at Disney Research Pittsburgh with Ali Israr. I received my B.S in Cognitive Science at Carnegie Mellon University, where I worked with Roberta Klatzky.</p> -->
-            <!-- <p>I consider myself as a relentless lifelong learner, seeking opportunities to hone and broaden my skill set. In my spare time, I enjoy reading books, watching movies, and making some <a href="http://www.beeboopboop.com" target="_blank"> comics about my life </a>. I also value physical activities. My current exercise activities are swimming and yoga. </p> -->
-        </div>
-    </div>
-
-</article>
-
-<h3 id="research"> Selected Projects </h3>
-<p id="page-description"> Below is a selection of my work in UX, design research, and academic research. Many have lead to publications at top venues in Human-Computer Interaction.</p>
-<!-- <p id="page-description"> To check out my design and illustration work or to contact me for a freelance opportunity, please visit my <a href="{{ site.baseurl}}/design" target="_blank">design page</a>.</p> -->
-
-<!-- <div class="index-divider"> </div> -->
-{% for post in site.posts %}
-<div class="post-div" id="{{ post.categories }}">
-  <article class="entry row">
-  <div class="col-sm-12">
-
-    <div class="col-sm-4">
-      <div class="index-img">
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          <img src="{{ post.preview | prepend: site.baseurl }}">
-        </a>
-      </div>
-    </div>
-
-
-    <div class="col-sm-8">
-      <div class="info">
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          <h2>
-            {{ post.title }}
-          </h2>
-        </a>
-
-        <div class="blurb">
-          {% if post.shortinfo %}
-          <p>{{ post.shortinfo }}</p>
-          {% endif %}
-        </div>
-
-        <div class="blurb-links">
-          {% if post.resources %}
-      		<ul class="list-unstyled">
-      			{% for res in post.resources %}
-      				<li><a href= "{{ res.external-url }}" target="_blank">
-                {% if res.resource contains "Video" %}
-                <i class="fa fa-film" aria-hidden="true"></i>
-                {% elsif res.resource contains "Paper" %}
-                <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                {% elsif res.resource contains "Poster" %}
-                <i class="fa fa-file-image-o" aria-hidden="true"></i>
-                {% elsif res.resource contains "Prototype" %}
-                <i class="fa fa-globe" aria-hidden="true"></i>
-                {% endif %}
-                {{ res.resource }}
-              </a></li>
-      			{% endfor %}
-      		</ul>
-      		{% endif %}
-        </div>
-
-      </div>
-    </div>
-
-  </div>
-
-  </article>
-
-  <!-- <div class="index-divider"> </div> -->
+    </article>
 </div>
-{% endfor %}
+
+<div class="website-section" id="research">
+
+    <h3> Selected Projects </h3>
+    <p id="page-description"> Below is a selection of my work in UX, design research, and academic research. Many have lead to publications at top venues in Human-Computer Interaction.</p>
+    <!-- <p id="page-description"> To check out my design and illustration work or to contact me for a freelance opportunity, please visit my <a href="{{ site.baseurl}}/design" target="_blank">design page</a>.</p> -->
+
+    <!-- <div class="index-divider"> </div> -->
+    {% for post in site.posts %}
+    <div class="post-div" id="{{ post.categories }}">
+      <article class="entry row">
+          <div class="col-sm-12">
+
+            <div class="col-sm-4">
+              <div class="index-img">
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                  <img src="{{ post.preview | prepend: site.baseurl }}">
+                </a>
+              </div>
+            </div>
+
+
+            <div class="col-sm-8">
+              <div class="info">
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                  <h2>
+                    {{ post.title }}
+                  </h2>
+                </a>
+
+                <div class="blurb">
+                  {% if post.shortinfo %}
+                  <p>{{ post.shortinfo }}</p>
+                  {% endif %}
+                </div>
+
+                <div class="blurb-links">
+                  {% if post.resources %}
+              		<ul class="list-unstyled">
+              			{% for res in post.resources %}
+              				<li><a href= "{{ res.external-url }}" target="_blank">
+                        {% if res.resource contains "Video" %}
+                        <i class="fa fa-film" aria-hidden="true"></i>
+                        {% elsif res.resource contains "Paper" %}
+                        <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                        {% elsif res.resource contains "Poster" %}
+                        <i class="fa fa-file-image-o" aria-hidden="true"></i>
+                        {% elsif res.resource contains "Prototype" %}
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        {% endif %}
+                        {{ res.resource }}
+                      </a></li>
+              			{% endfor %}
+              		</ul>
+              		{% endif %}
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+      </article>
+      <!-- <div class="index-divider"> </div> -->
+    </div>
+    {% endfor %}
+
+</div>
