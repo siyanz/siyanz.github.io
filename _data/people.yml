@@ -1,3 +1,21 @@
+eDing:
+  name: Emily Ding
+  website: https://eyding.net/
+jHong:
+  name: Jason Hong
+  website: http://www.cs.cmu.edu/~jasonh/
+tKamark:
+  name: Thomas Kamark
+  website: http://psychology.pitt.edu/people/thomas-w-kamarck-phd
+eLitt:
+  name: Eden Litt
+  website: https://www.linkedin.com/in/eden-litt-99693316
+bKraut:
+  name: Robert Kraut
+  website: https://kraut.hciresearch.info/
+mBurke:
+  name: Moira Burke
+  website: http://www.thoughtcrumbs.com/
 sZhao:
   name: Siyan Zhao
   website: https://www.siyanz.com
@@ -18,7 +36,7 @@ jMars:
   website: http://www.john-mars.com/
 jBedford:
   name: Job Bedford
-  website: 
+  website:
 rKlatzky:
   name: Roberta Klatzky
   website: https://scholar.google.com/citations?user=wUPKh58AAAAJ

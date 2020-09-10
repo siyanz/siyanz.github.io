@@ -1,22 +1,27 @@
 $( document ).ready(function() {
     console.log( "Thank you for visiting my site!" );
+
     var navItems = $(".main-nav-li");
     var currentPath = document.location.pathname;
 
+    var menuHeight = 60;
     var highlightName = currentPath.toLowerCase();
     highlightName = highlightName.split("/")[1];
+    console.log(highlightName)
 
     for (var i = 0; i < navItems.length; i++) {
       var item = navItems[i];
       // TODO get text of item match to highlightName
       var itemText = $(item).text().toLowerCase();
 
-      if (highlightName == "" || ["publications", "ux"].includes(highlightName)) {
+      if (highlightName == "") {
         if (itemText == "about") {
           $(item).addClass("active");
+        } else {
+          $(item).removeClass("active");
         }
-      }else{
-        if (itemText == highlightName) {
+      } else {
+        if (itemText == "research") {
           $(item).addClass("active");
         } else {
           $(item).removeClass("active");
@@ -24,57 +29,41 @@ $( document ).ready(function() {
       }
     }
 
-    setActiveTag("all");
-    showContainer("all");
+      // setActiveTag("all");
+      showContainer("all");
 
     // Add smooth scrolling to all links
       $("a").on('click', function(event) {
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
           // Prevent default anchor click behavior
-          event.preventDefault();
+          // event.preventDefault();
+          // $('html, body').hide();
 
           // Store hash
           var hash = this.hash;
+          $('.main-nav-li').removeClass('active');
+          $('#main-nav a[href$=#'+ hash +']').addClass('active');
+          console.log($('#main-nav a[href$='+ hash +']'));
 
-          // Change activated text
-          for (var i = 0; i < navItems.length; i++) {
-              var item = navItems[i];
-              // TODO get text of item match to highlightName
-              var itemText = $(item).text().toLowerCase();
-
-              if (hash == "#about") {
-                if (itemText == "about") {
-                  $(item).addClass("active");
-                } else{
-                  $(item).removeClass("active");
-                }
-              }
-
-              if (hash == "#research") {
-                if (itemText == "research") {
-                  $(item).addClass("active");
-                } else{
-                  $(item).removeClass("active");
-                }
-              }
-            }
-
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function(){
+          setTimeout(function() {
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              // $('html, body').show();
+              $('html, body').animate({
+                scrollTop: ($(hash).offset().top) - menuHeight
+              }, 800, function(){
+          }, 0);
 
             // Add hash (#) to URL when done scrolling (default click behavior)
             window.location.hash = hash;
-
           });
-        } // End if
+      } else {
+          $('html, body').show();
+      } // End if
       });
 
       $(window).scroll(function(){
-          console.log(window.pageYOffset);
           if (window.pageYOffset > 175) {
             $(".main-nav-div").addClass("sticky-nav");
             $(".place-holder-header").css({display: "block"});
@@ -86,12 +75,11 @@ $( document ).ready(function() {
           }
 
           $('.website-section').each(function() {
-                if($(window).scrollTop() >= $(this).position().top) {
+                if($(window).scrollTop() >= ($(this).position().top - menuHeight)) {
                     // var id = $(this).attr('id');
                     var item_name = $(this).attr('id');
                     $('.main-nav-li').removeClass('active');
-                    console.log($('.main-nav-li a[href=#'+ item_name +']'));
-                    $('#main-nav ul li a[href=#'+ item_name +']').addClass('active');
+                    $('#main-nav a[href$=#'+ item_name +']').addClass('active');
                 }
             });
 

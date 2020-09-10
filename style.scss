@@ -354,6 +354,8 @@ article.entry h2 {
   // font-size: 125%;
   // padding-bottom: 5px;
   margin-top: 0;
+    color: #E37D00;
+    font-size: 18px;
 }
 
 article.entry h1 a,
@@ -432,10 +434,15 @@ article.entry {
     padding-right: 10px;
   }
   h2 {
-    color: #444;
+    color: #E37D00;
+    font-size: 18px;
   }
   h2:hover, h2:focus {
     color: #999;
+  }
+  a {
+      color: #E37D00;
+
   }
 }
 
@@ -632,6 +639,7 @@ footer {
   }
   a {
     text-decoration: none;
+
   }
   .thumbnail{
     border: none;

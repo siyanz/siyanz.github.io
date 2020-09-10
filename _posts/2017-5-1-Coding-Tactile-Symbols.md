@@ -12,6 +12,8 @@ resources:
    external-url: resources/papers/Coding-Phonemes.pdf
 preview: /images/CodingTactile/teaser.png
 color: "#FF8C00"
+methods:
+ - ANOVA
 teammates:
  - name: sZhao
  - name: aIsrar

@@ -6,7 +6,9 @@ year: 2015
 month: June
 categories: [Publications]
 problem: Current haptic feedback is uniform in design and lacks granularity in the information it delivers.
-goal: To design dynamic and moving haptic feedback and apply it in media content for enriched users' experience.
+goal: To design dynamic and moving haptic feedback and apply it in media content for enriched users' experience. I built a tablet game to showcase the haptic effects.
+methods:
+ - Python
 resources:
  - resource: Paper1
    external-url: http://disneyresearch.s3-us-west-1.amazonaws.com/wp-content/uploads/20150719204348/Intermanual-Apparent-Tactile-Motion-on-Handheld-Tablets-Paper.pdf
