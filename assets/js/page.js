@@ -7,7 +7,6 @@ $( document ).ready(function() {
     var menuHeight = 60;
     var highlightName = currentPath.toLowerCase();
     highlightName = highlightName.split("/")[1];
-    console.log(highlightName)
 
     for (var i = 0; i < navItems.length; i++) {
       var item = navItems[i];
@@ -15,7 +14,7 @@ $( document ).ready(function() {
       var itemText = $(item).text().toLowerCase();
 
       if (highlightName == "") {
-        if (itemText == "about") {
+        if (itemText == "home") {
           $(item).addClass("active");
         } else {
           $(item).removeClass("active");
@@ -44,7 +43,6 @@ $( document ).ready(function() {
           var hash = this.hash;
           $('.main-nav-li').removeClass('active');
           $('#main-nav a[href$=#'+ hash +']').addClass('active');
-          console.log($('#main-nav a[href$='+ hash +']'));
 
           setTimeout(function() {
               // Using jQuery's animate() method to add smooth page scroll
@@ -64,6 +62,7 @@ $( document ).ready(function() {
       });
 
       $(window).scroll(function(){
+          // Sticky menu
           if (window.pageYOffset > 175) {
             $(".main-nav-div").addClass("sticky-nav");
             $(".place-holder-header").css({display: "block"});
@@ -74,6 +73,13 @@ $( document ).ready(function() {
             $(".main-nav-div").removeClass("sticky-nav");
           }
 
+        // Highlight home item in menu
+        about_top_pos = $('#about').position().top;
+         if ($(window).scrollTop() >= 0 && $(window).scrollTop() < about_top_pos){
+              $('.main-nav-li').removeClass('active');
+              $('#main-nav a[href$=#home]').addClass('active');
+          }
+          // Highlight menu item when scrolling
           $('.website-section').each(function() {
                 if($(window).scrollTop() >= ($(this).position().top - menuHeight)) {
                     // var id = $(this).attr('id');

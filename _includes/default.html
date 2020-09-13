@@ -36,7 +36,7 @@
   </head>
 
   <body>
-  <div class="container">
+  <div class="container" id="home">
     <!-- Navbar for collapsed view ONLY -->
     <nav class="fixed-navbar visible-xs" role="navigation">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -83,6 +83,7 @@
               </a>
             <nav id="main-nav">
               <ul>
+                  <li><a class="main-nav-li" href="{{ site.baseurl }}/#home">Home</a></li>
               <li><a class="main-nav-li" href="{{ site.baseurl }}/#about">About</a></li>
               <li><a class="main-nav-li" href="{{ site.baseurl }}/#research">Research</a></li>
               <!-- <li><a class="main-nav-li" href="{{ site.baseurl }}/design/">Design</a></li> -->
@@ -100,7 +101,7 @@
         <div class="wrapper-footer">
           <footer class="footer">
             <p>
-              &copy; 2018 Siyan Zhao. Site built with Jekyll.
+              &copy; 2020 Siyan Zhao. Site built with Jekyll.
             </p>
             {% include svg-icons.html %}
           </footer>

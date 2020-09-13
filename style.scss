@@ -25,7 +25,7 @@ body{
   h1,h2,h3,h4,h5,h6 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
-    font-size: 34px;
+    font-size: 30px;
     line-height: 1.3em;
   }
   h3 {
@@ -354,7 +354,7 @@ article.entry h2 {
   // font-size: 125%;
   // padding-bottom: 5px;
   margin-top: 0;
-    color: #E37D00;
+    color: #DD7900;
     font-size: 18px;
 }
 
@@ -432,6 +432,7 @@ article.entry {
   .blurb-links li {
     display: inline;
     padding-right: 10px;
+    color: #DD7900;
   }
   h2 {
     color: #E37D00;
@@ -495,8 +496,8 @@ article.entry {
     margin: 0;
     line-height: 1.6em;
     font-family: 'Droid Sans', sans-serif;
-    padding-top: 5px;
     font-size: 13px;
+    padding-top: 3px;
   }
 }
 
@@ -543,10 +544,11 @@ article.entry {
 .hero-img {
   max-height: 350px;
   overflow: hidden;
+  text-align: center;
   img {
     max-height: 100%;
     width: auto;
-    max-width: 100%;
+    max-width: 80%;
   }
 }
 
@@ -819,6 +821,8 @@ ul.dropdown-menu>li>a>i.fa {
         text-align: center;
         border-bottom: none;
         padding-top:  10px;
+        color: #554e47;
+        text-transform: none;
     }
 }
 

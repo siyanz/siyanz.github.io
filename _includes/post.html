@@ -10,27 +10,8 @@
 				  {% if categories_list.first[0] == null %}
 					 {{ categories_list | join: ', ' }}
 					{% endif %} -->
-			  	<!-- {% for mate in page.teammates %}
-			  	{% assign person = site.data.people[mate.name] %}
-			  	{% if person.website %}<a href="{% if person.website %}{{ person.website }}{% endif %}" target="_blank"> {% endif %}
-						{{ person.name }}{% if person.website %}</a>{% endif %}{% unless forloop.last %},{% endunless %}
-			  	{% endfor %} -->
-					<!-- {% if page.resources %} |
-						{% for res in page.resources %}
-							<a href= "{{ res.external-url }}" target="_blank">
-								{% if res.resource contains "Video" %}
-								<i class="fa fa-film" aria-hidden="true"></i>
-								{% elsif res.resource contains "Paper" %}
-								<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-								{% elsif res.resource contains "Poster" %}
-								<i class="fa fa-file-image-o" aria-hidden="true"></i>
-								{% elsif res.resource contains "Prototype" %}
-								<i class="fa fa-globe" aria-hidden="true"></i>
-								{% endif %}
-								{{ res.resource }}
-							</a>
-						{% endfor %}
-						{% endif %} -->
+
+
 				</p>
 			</div>
 		</div>
@@ -65,6 +46,16 @@
 
     <div class="col-sm-3 vert-prog">
         <div class="post-det text-left">
+        <p class="vert-prog-title">Team Members</p>
+        {% for mate in page.teammates %}
+        {% assign person = site.data.people[mate.name] %}
+            {% if person.name != "Siyan Zhao" %}
+                <p>{% if person.website %}<a href="{% if person.website %}{{ person.website }}{% endif %}" target="_blank"> {% endif %}
+                {{ person.name }}{% if person.website %}</a>{% endif %}</p>{% unless forloop.last %}{% endunless %}
+            {% endif %}
+        {% endfor %}
+        <br>
+
         {% if page.problem %}
         <p class="vert-prog-title">Problem</p>
         <p>{{ page.problem }} </p>
@@ -91,6 +82,24 @@
         <p> {{ r }}</p>
         {% endfor %}
         <br>
+        {% endif %}
+
+        {% if page.resources %}
+            <p class="vert-prog-title">Resources</p>
+            {% for res in page.resources %}
+                <p><a href= "{{ res.external-url }}" target="_blank">
+                    {% if res.resource contains "Video" %}
+                    <i class="fa fa-film" aria-hidden="true"></i>
+                    {% elsif res.resource contains "Paper" %}
+                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                    {% elsif res.resource contains "Poster" %}
+                    <i class="fa fa-file-image-o" aria-hidden="true"></i>
+                    {% elsif res.resource contains "Prototype" %}
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    {% endif %}
+                    {{ res.resource }} <br>
+                </a> </p>
+            {% endfor %}
         {% endif %}
 
         </div>
