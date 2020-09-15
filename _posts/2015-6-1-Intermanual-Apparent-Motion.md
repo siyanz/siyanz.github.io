@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Intermanual Apparent Tactile Motion
-shortinfo: A work exploring the usage of haptic (touch) illusions in enriching media content. An ideal balance of lab research and real-life applications.
+shortinfo: A work exploring the usage of haptic (touch) illusions in enriching media content. Published in World Haptics Conference (2015) and IEEE Transactions on Haptics (2017).
 year: 2015
 month: June
 categories: [Publications]

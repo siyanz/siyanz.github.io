@@ -1,13 +1,13 @@
 ---
 layout: post
 title: What Are Meaningful Social Interactions in Today’s Media Landscape?
-shortinfo: Introducing a more holistic framework for thinking about social interactions in this technology-centric age.
+shortinfo: Introducing a more holistic framework for thinking about social interactions in this technology-centric age. Published in Social Media + Society (2020).
 year: 2020
 month: August
 categories: [Publications]
 resources:
  - resource: Paper
-   external-url: resources/papers/Meaningful_Interactions.pdf
+   external-url: /resources/papers/Meaningful_Interactions.pdf
 preview: /images/Misc/msi.png
 color: "#FF8C00"
 methods:

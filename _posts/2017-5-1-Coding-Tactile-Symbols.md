@@ -1,15 +1,15 @@
 ---
 layout: post
 title: Coding Tactile Symbols for Phonetic Communication
-shortinfo: Hearing with the skin. An exciting summer research exploration with Facebook.
+shortinfo: This project explores the possibility of hearing with the skin. Published in the ACM CHI Conference on Human Factors in Computing Systems (2018).
 year: 2018
 month: May
 categories: [Publications]
-problem: With large amount of information overloading people's visual and auditory senses, can we utilize people's skin to communicate language?
+problem: With a large amount of information overloading people's visual and auditory senses, can we utilize people's skin to communicate content?
 goal: To explore a method that associates haptic symbols with language, maximizing both how accurately people can recognize the symbols and how fast they can be delivered.
 resources:
  - resource: Paper
-   external-url: resources/papers/Coding-Phonemes.pdf
+   external-url: /resources/papers/Coding-Phonemes.pdf
 preview: /images/CodingTactile/teaser.png
 color: "#FF8C00"
 methods:
